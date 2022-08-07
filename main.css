@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+}
+
+.container{
+    width: 100%;
+    height: 10800px;
+}
+
+
+.home{
+    background: linear-gradient(137deg, #B8E1FF, #50CAEE, #52A9F3, #7050EE,#0A1843);
+    background-size: 300% 300%;
+    width: 100%;
+    height: 110vh;
+    -webkit-animation: AnimationName 5s ease infinite;
+    -moz-animation: AnimationName 5s ease infinite;
+    -o-animation: AnimationName 5s ease infinite;
+    animation: AnimationName 5s ease infinite;
+    padding-top: 4%;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+#com{
+    width: 1100px;
+    height: 620px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    margin: 0 auto;
+    padding-top: 1%;
+}
+
+#moniter{
+    width: 1000px;
+    height: 530px;
+    background: #6183E7;
+    border-radius: 40px;
+    margin: 0 auto;
+}
+
+.title{
+    width: 100px;
+    height: 30px;
+    font-family: 'Lemon';
+    font-size: 30px;
+    display: inline;
+    margin-left: 5%;
+    background: linear-gradient(125.37deg, #000000 62.14%, #5896F2 73.95%, #6183E7 81.63%, #7050EE 87.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.title_2{
+    width: 219px;
+    height: 36px;
+    display: inline;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #000000;
+    margin-left: 31%;
+
+    line-height: 55px;
+}
+
+.title_3{
+    width: 150px;
+    height: 45px;
+    display: inline;
+    background: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 38px;
+
+    font-family: 'Lemon';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 55px;
+    text-align: center;
+    padding: 10px;
+    color: #FFFFFF;
+
+    margin-left: 27%;
+}
