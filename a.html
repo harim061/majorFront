@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="./a.css">
+    <link rel="stylesheet" href="./roadmap.css">
+    <link rel="stylesheet" href="./han.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lemon" />
     <script src="https://kit.fontawesome.com/fc13d61e87.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -80,8 +82,114 @@
         </div>
     </div>
 
-    <div class="content"></div>
-    <div class="content"></div>
+    <div class="content" style="background: #000"> <!--로드맵 페이지-->
+        <div class="roadmap">
+            <div class="gooey">
+                <div class="rmtitle">
+                <h3 style="color: #7050EE">What’s your choice?</h3>
+                <h1 style="color: #FFFFFF; font-size: 60px; margin: 0px; ">DSCE Road Map</h1>
+                <p style="color: #0A1843; margin-bottom: 5%; text-decoration: underline;">according to the field of employment</p>
+                <i style="color: #fff; font-size: 25px; text-shadow: 4px 4px #6183E7; ">Click what you want!</i>
+            </div>
+            <table>
+                <thead style="color: #B8E1FF; text-align: center; text-shadow: 2px 2px #0A1843;">
+                <th><div id="choi" onclick="tgSw();"><div class="back"><p>최승훈 교수님</p></div></div>고급소프트웨어 개발자</th>
+                <th><div id="park" onclick="tgDb();"><div class="back"><p>박우창 교수님</p></div></div>데이터베이스 프로그래머</th>
+                <th><div id="ylee" onclick="tgWa();"><div class="back"><p>이경미 교수님</p></div></div>웹/앱 개발자</th>
+                <th><div id="olee" onclick="tgNs();"><div class="back"><p>이주영 교수님</p></div></div>네트워크 보안 프로그래머</th>
+                </thead> 
+                <tbody>
+                <td><div class="mc" ><div id="sw" style="visibility: hidden;">프로그래밍 기초<br>
+                    JAVA 프로그래밍<br>
+                    객체지향프로그래밍<br>
+                    리눅스 프로그래밍<hr>
+                    소프트웨어분석설계<br>
+                    멀티미디어프로그래밍<br>
+                    소프트웨어공학<br>
+                    알고리즘<br>
+                    운영체제<hr>
+                    컴퓨터그래픽스<br>
+                    인공지능<br>
+                    졸업프로젝트1<br>
+                    졸업프로젝트2<br>
+                </div></div></td>
+                <td><div class="mc"><div id="db" style="display: none;">
+                    프로그래밍 기초<br>
+                    JAVA 프로그래밍<br>
+                    프로그래머수학<br>
+                    자료구조론<hr><br>
+                    알고리즘<br>
+                    데이터베이스프로그래밍<br><br><hr>
+                    빅데이터<br>
+                    졸업프로젝트1<br>
+                    졸업프로젝트2
+                </div></div></td>
+                <td><div class="mc"><div id="wa" style="display: none;">
+                    인터넷 기초<br>
+                    JAVA 프로그래밍<br>
+                    인터넷프로그래밍<br>
+                    리눅스 프로그래밍<hr><br><br>
+                    모바일앱프로그래밍<br><br><br><hr>
+                    웹프로그래밍응용<br>
+                    졸업프로젝트1<br>
+                    졸업프로젝트2
+                </div></div></td>
+                <td><div class="mc"><div  id="ns" style="display: none;">
+                    프로그래밍 기초<br>
+                    리눅스 프로그래밍<br>
+                    프로그래머수학<br><br><hr><br>
+                    컴퓨터구조<br>
+                    컴퓨터네트워크<br><br><hr>
+                    인터넷보안<br>
+                    졸업프로젝트1<br>
+                    졸업프로젝트2
+                </div></div></td>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="content"><!--한이음 페이지-->
+        <div class="han">
+        <h1>한이음 공모전 수상실적</h1>
+        <div id="han2">
+            <div id= "han3" style="width: 170%; padding: 0 25%; display:flex; padding-top: 10%;">
+            <div>
+            <span>2018</span><hr>
+            <div id="18">
+                동상 “얼굴 트래킹을 이용한 영상 속 등장인물 분석 및 검색 서비스”<br>
+                장려상 “AI 기반의 기업형 Realtime Chabot 개발을 통한 일정 관리 스마트시스템”<br>
+                장려상 “AWS을 활용한 난청인을 위한 Hearing Aid (보청기)”<br>
+                그 외 8개 작품 입선
+            </div>
+            </div>
+            <div>
+            <span>2019</span><hr>
+            <div id="19">
+                대상(과학기술 정보통신부 장관상) “맞춤형 공공 복지 알리미”<br>
+                동상 “얼굴 인식과 감정 분석 기술을 활용한 AI 화상 회의 중심 협업 플랫폼”<br>
+                장려상 “블록체인을 활용한 스터디 관리 플랫폼”<br>
+                그 외 11개 작품 입선
+            </div>
+            </div>
+            <div>
+            <span>2020</span><hr>
+            <div id="20">
+                동상 “우리 뭐 먹지? –감정 분석을 통한 실시간 음식 추천 서비스”<br><br><br><br>
+            </div>
+            </div>
+            <div>
+            <span>2021</span><hr>
+            <div id="21">
+                금상 “시각장애인을 위한 큐브 냉장고”<br>
+                은상 “1인 미디어 창작자를 위한 딥러닝 기반 작곡 웹 어플리케이션”<br>
+                동상 “AI기반 홈 트레이닝 웹 서비스”<br>
+                그 외 7개 작품 입선
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
     <div class="content"></div>
     <div class="content"></div>
 </body>

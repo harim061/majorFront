@@ -65,3 +65,56 @@ $('.txt').html(function(i, html) {
     return '<span>' + chars.join('</span><span>') + '</span>';
 });
 
+// 로드맵 자바스크립트
+function tgSw(){
+    var status = document.getElementById("sw");
+    if(status.style.visibility=='hidden'){
+    status.style.visibility='visible';
+    }
+    else{
+        status.style.visibility='hidden';
+    }
+}
+
+function tgDb(){
+    var status = document.getElementById("db");
+    if(status.style.display=='none'){
+    status.style.display='block';
+    }
+    else{
+        status.style.display='none';
+    }
+}
+
+function tgWa(){
+    var status = document.getElementById("wa");
+    if(status.style.display=='none'){
+    status.style.display='block';
+    }
+    else{
+        status.style.display='none';
+    }
+}
+
+function tgNs(){
+    var status = document.getElementById("ns");
+    if(status.style.display=='none'){
+    status.style.display='block';
+    }
+    else{
+        status.style.display='none';
+    }
+}
+
+//한이음 자바스크립트
+$("#han2").on('mousewheel',function(e){
+            var wheelDelta = e.originalEvent.wheelDelta;
+            if(wheelDelta > 0){
+                console.log("up");
+                $(this).scrollLeft(-wheelDelta + $(this).scrollLeft());
+            }
+            else{
+                console.log("down");
+                $(this).scrollLeft(-wheelDelta + $(this).scrollLeft());
+            }
+});

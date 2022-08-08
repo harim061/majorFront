@@ -1,0 +1,48 @@
+.han{
+    width: 100%;height: 100%;
+    background-color: #0A1843;
+    text-align: center;
+    margin: 0;
+    padding-top: 5%;
+    overflow: visible;
+}
+.han h1{
+    font-family: 'Lemon';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 84px;
+    text-shadow: 3px 3px #52A9F3;
+}
+#han2{
+    width: 100%;
+    height: 80%;
+    float: left;
+    overflow-x: scroll;
+    scrollbar-width:none;
+}
+#han2::-webkit-scrollbar{
+    display:none;
+}
+#han2 span{
+    font-size: 200px;
+    color: #6183E7;
+    font-family: 'Lemon';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 170px;
+}
+#han2 div{
+    font-family: 'Lemon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+#han3 div>div{
+    padding: 30px;
+}
