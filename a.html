@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./a.css">
+    <link rel="stylesheet" href="./roadmap.css">
+    <link rel="stylesheet" href="./han.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lemon" />
+    <script src="https://kit.fontawesome.com/fc13d61e87.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="http://fonts.cdnfonts.com/css/lemonade-script" rel="stylesheet">
+    <title>전공박람회</title>
+</head>
+<body>
+    <div class="content">
+        <div class="page_1">
+            <div id="com">
+                <div class="title">DSCE</div>
+                <div class="title_2">Make New Flow</div>
+                <div class="title_3">Hello, World</div>
+                <div id="moniter">
+                    <div class="bubbles"><p class="cir">Computer Engineering</p></div>
+                    <i class="fa-solid fa-chevron-down"  id="icon1"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content" id="page_2">
+        <h1 class="p_title"><span>Computer</span> <span>Engineering</span></h1>
+            <p class="p_text">
+                미래의 정보사회가 요구하는 실무 능력을 갖춘 <b class="text_ani1">우수한 IT 전문 인력</b>  을 양성하는 학과입니다.<br>
+                컴퓨터 소프트웨어의 개발 및 응용에 필요한 이론과 기술 교육을 실시하고, 실험·실습 교육을 통해 활용 능력을 높이며,<br> 
+                현장 경험 및 산업체 전문가의 교육 참여를 확대하여 습득한 지식을 현실에 적용할 수 있도록 합니다.<br>
+                기존의 정보를 바탕으로 새롭고 독창적이며 유용한 아이디어를 산출해 내는 <b class="text_ani2">창의성</b>, 직종에 따라 필요한 <br>
+                자료구조, 알고리즘, 프로그래밍 언어에 대한 깊은 지식을 활용할 수 있는 <b class="text_ani3">전문성</b>, 다른 사람들과 함께 소통하며, <br>
+                갈등 발생 시 이를 원만히 조절하고 함께 업무를 수행해 내는 <b class="text_ani4">협업 능력</b>을 학습합니다.
+                </p>
+
+            <i class="fa-solid fa-chevron-down" id="icon2"></i>
+    </div>
+    <div class="content" id="page_3">
+        <div class="page3_box1">
+            01 . Flow
+            <br>
+            매일매일 흘러가는 시간 속에서 
+            학우분들께 새롭고 특별한 
+            ‘흐름’ 을 선물하도록 노력합니다.
+        </div>
+        <div class="page3_box2">
+            02. 늘푸른 소리
+            <br>
+            IT관련 전공을 꿈꾸는 청소년들에게
+            교육 봉사를 진행하고, 
+            IT기술 특강, 스터디, 프로젝트를
+            통해 동아리원들과 함께 전공 
+            관련 학습 능력을 기를 수 있습니다.            
+        </div>
+        
+            <MARQUEE  scrollamount="35">
+                <span id="horizon" style="color: white;">What kind of </span>
+                <span  id="horizon" class="txt anim-text-flow">school life?</span>
+            </MARQUEE>
+        <div class="page3_box3">
+            03. 코너
+            <br>
+            개발 소모임을 통하여 프로그램들을
+            통해 선후배와 교류하며 전공 학습 능력을 
+            기르고 다양한 프로젝트 경험을 쌓습니다.         
+        </div>
+        <div class="page3_box4">
+            04. 컴스터디
+            <br>
+            전공 내 팀을 이루어 한 학기 동안 전공 공부
+            프로젝트, 자격증 등의 목표를 가지고 
+            동기들과 스터디를 진행하며 함께 발전합니다.
+            
+        </div>
+        </div>
+    </div>
+
+    <div class="content" style="background: #000"> <!--로드맵 페이지--> 
+        <div class="roadmap">
+            <div class="gooey">
+                <div class="rmtitle">
+                <h3 style="color: #7050EE">What’s your choice?</h3>
+                <h1 style="color: #FFFFFF; font-size: 60px; margin: 0px; ">DSCE Road Map</h1>
+                <p style="color: #0A1843; margin-bottom: 5%; text-decoration: underline;">according to the field of employment</p>
+                <i style="color: #fff; font-size: 25px; text-shadow: 4px 4px #6183E7; ">Click what you want!</i>
+            </div>
+            <table>
+                <thead style="color: #B8E1FF; text-align: center; text-shadow: 2px 2px #0A1843;">
+                <th><div id="choi" onclick="tgSw();"><div class="back"><p>최승훈 교수님</p></div></div>고급소프트웨어 개발자</th>
+                <th><div id="park" onclick="tgDb();"><div class="back"><p>박우창 교수님</p></div></div>데이터베이스 프로그래머</th>
+                <th><div id="ylee" onclick="tgWa();"><div class="back"><p>이경미 교수님</p></div></div>웹/앱 개발자</th>
+                <th><div id="olee" onclick="tgNs();"><div class="back"><p>이주영 교수님</p></div></div>네트워크 보안 프로그래머</th>
+                </thead> 
+                <tbody>
+                <td><div class="mc" ><div id="sw" style="visibility: hidden;">프로그래밍 기초<br>
+                    JAVA 프로그래밍<br>
+                    객체지향프로그래밍<br>
+                    리눅스 프로그래밍<hr>
+                    소프트웨어분석설계<br>
+                    멀티미디어프로그래밍<br>
+                    소프트웨어공학<br>
+                    알고리즘<br>
+                    운영체제<hr>
+                    컴퓨터그래픽스<br>
+                    인공지능<br>
+                    졸업프로젝트1<br>
+                    졸업프로젝트2<br>
+                </div></div></td>
+                <td><div class="mc"><div id="db" style="display: none;">
+                    프로그래밍 기초<br>
+                    JAVA 프로그래밍<br>
+                    프로그래머수학<br>
+                    자료구조론<hr><br>
+                    알고리즘<br>
+                    데이터베이스프로그래밍<br><br><hr>
+                    빅데이터<br>
+                    졸업프로젝트1<br>
+                    졸업프로젝트2
+                </div></div></td>
+                <td><div class="mc"><div id="wa" style="display: none;">
+                    인터넷 기초<br>
+                    JAVA 프로그래밍<br>
+                    인터넷프로그래밍<br>
+                    리눅스 프로그래밍<hr><br><br>
+                    모바일앱프로그래밍<br><br><br><hr>
+                    웹프로그래밍응용<br>
+                    졸업프로젝트1<br>
+                    졸업프로젝트2
+                </div></div></td>
+                <td><div class="mc"><div  id="ns" style="display: none;">
+                    프로그래밍 기초<br>
+                    리눅스 프로그래밍<br>
+                    프로그래머수학<br><br><hr><br>
+                    컴퓨터구조<br>
+                    컴퓨터네트워크<br><br><hr>
+                    인터넷보안<br>
+                    졸업프로젝트1<br>
+                    졸업프로젝트2
+                </div></div></td>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="content"><!--한이음 페이지-->
+        <div class="han">
+        <h1>한이음 공모전 수상실적</h1>
+        <div id="han2">
+            <div id= "han3" style="width: 170%; padding: 0 25%; display:flex; padding-top: 10%;">
+            <div>
+            <span>2018</span><hr>
+            <div id="18">
+                동상 “얼굴 트래킹을 이용한 영상 속 등장인물 분석 및 검색 서비스”<br>
+                장려상 “AI 기반의 기업형 Realtime Chabot 개발을 통한 일정 관리 스마트시스템”<br>
+                장려상 “AWS을 활용한 난청인을 위한 Hearing Aid (보청기)”<br>
+                그 외 8개 작품 입선
+            </div>
+            </div>
+            <div>
+            <span>2019</span><hr>
+            <div id="19">
+                대상(과학기술 정보통신부 장관상) “맞춤형 공공 복지 알리미”<br>
+                동상 “얼굴 인식과 감정 분석 기술을 활용한 AI 화상 회의 중심 협업 플랫폼”<br>
+                장려상 “블록체인을 활용한 스터디 관리 플랫폼”<br>
+                그 외 11개 작품 입선
+            </div>
+            </div>
+            <div>
+            <span>2020</span><hr>
+            <div id="20">
+                동상 “우리 뭐 먹지? –감정 분석을 통한 실시간 음식 추천 서비스”<br><br><br><br>
+            </div>
+            </div>
+            <div>
+            <span>2021</span><hr>
+            <div id="21">
+                금상 “시각장애인을 위한 큐브 냉장고”<br>
+                은상 “1인 미디어 창작자를 위한 딥러닝 기반 작곡 웹 어플리케이션”<br>
+                동상 “AI기반 홈 트레이닝 웹 서비스”<br>
+                그 외 7개 작품 입선
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="content"></div>
+    <div class="content"></div>
+</body>
+<script src="./a.js"></script>
+</html>
