@@ -1,3 +1,5 @@
+#content:nth-child(even){background-color: #333;}
+html{overflow: hidden;}
 body{
     margin: 0px;
 }
@@ -12,7 +14,7 @@ body{
     background: linear-gradient(137deg, #B8E1FF, #50CAEE, #52A9F3, #7050EE,#0A1843);
     background-size: 300% 300%;
     width: 100%;
-    height: 110vh;
+    height: 150vh;
     -webkit-animation: AnimationName 5s ease infinite;
     -moz-animation: AnimationName 5s ease infinite;
     -o-animation: AnimationName 5s ease infinite;
@@ -148,7 +150,7 @@ body{
     z-index: 1;
 }
 
-.fa-chevron-down{
+#icon1{
     width: 50px;
     height: 40px;
     display: flex;
@@ -186,7 +188,7 @@ body{
 }
 
 .line{
-    margin-top: -250px;
+    margin-top: -550px;
 }
 .cover {
     width: 100%;
@@ -214,7 +216,7 @@ body{
     transform: rotate(2deg);
     background-color: #50CAEE;
     justify-content: flex-end;
-    margin-bottom: 100vh;
+    margin-bottom: 0;
 }
 
 p[class$="parallel"]{
@@ -225,4 +227,106 @@ p[class$="parallel"]{
     text-align: center;
     padding: 8px;
     color: #ffffff;
+}
+
+.page_2{
+    width: 100%;
+    height: 130vh;
+    background-color: #0A1843;
+    margin-top: -200px;
+
+    text-align: center;
+
+}
+
+.p_title{
+    width: 1040px;
+    height: 104px;
+    padding-top: 15%;
+    padding-left: 5%;
+    color: #fff;
+    font-family: 'Lemon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 104px;
+    text-shadow: 0 0.1em 20px black, 0.05em -0.03em 0 black, 0.05em 0.005em 0 black, 0em 0.08em 0 black, 0.05em 0.08em 0 black, 0px -0.03em 0 black, -0.03em -0.03em 0 black, -0.03em 0.08em 0 black, -0.03em 0 0 black;
+}
+h1 span{
+    transform: scale(0.9);
+    display: inline-block;
+}
+h1 span:first-child {
+    animation: bop 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite alternate;
+}
+h1 span:last-child {
+    animation: bopB 1s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite alternate;
+}
+@keyframes bop {
+    0% {
+    transform: scale(0.9);
+    }
+    50%, 100% {
+    transform: scale(1);
+    }
+}
+@keyframes bopB {
+    0% {
+    transform: scale(0.9);
+    }
+    80%, 100% {
+    transform: scale(1) rotateZ(-3deg);
+    }
+}
+
+.p_text{
+    padding: 10%;
+    padding-top: 0;
+    padding-bottom: 3%;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 50px;
+
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+    
+
+}
+
+.text_ani1{
+    width: 306px;
+    height: 75px;
+    border: 3px solid white;
+    padding:1%;
+    border-radius: 37px;
+    cursor: pointer;
+}
+
+.text_ani1:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#icon2{
+    width: 50px;
+    height: 40px;
+    display: flex;
+    color: white;
+    font-size: 30px;
+    
+    margin-left: 49%;
+    -webkit-animation: sdb 2s infinite;
+    animation: sdb 2s infinite;
+    box-sizing: border-box;
+}
+
+.page_3{
+    background-color: #5896F2;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: -20%;
 }
