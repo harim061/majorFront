@@ -60,13 +60,13 @@ border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
 }
 .roadmap{
     width: 100%;
-    height: 110vh;
+    height: 100%;
     background-color: #0A1843;
     text-align: center;
     margin: 0;
-    padding-top: 3%;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    padding: 3% 0;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
 }
 
 .rmtitle{

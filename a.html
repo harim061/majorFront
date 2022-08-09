@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./a.css">
     <link rel="stylesheet" href="./roadmap.css">
     <link rel="stylesheet" href="./han.css">
+    <link rel="stylesheet" href="./employ.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lemon" />
     <script src="https://kit.fontawesome.com/fc13d61e87.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,7 +24,7 @@
                 <div class="title_3">Hello, World</div>
                 <div id="moniter">
                     <div class="bubbles"><p class="cir">Computer Engineering</p></div>
-                    <i class="fa-solid fa-chevron-down"  id="icon1"></i>
+                    <i class="fa-solid fa-chevron-down"  id="icon1" onclick="goMajor();"></i>
                 </div>
             </div>
         </div>
@@ -40,7 +41,7 @@
                 갈등 발생 시 이를 원만히 조절하고 함께 업무를 수행해 내는 <b class="text_ani4">협업 능력</b>을 학습합니다.
                 </p>
 
-            <i class="fa-solid fa-chevron-down" id="icon2"></i>
+            <i class="fa-solid fa-chevron-down" id="icon2" onclick="goSl();"></i>
     </div>
     <div class="content" id="page_3">
         <div class="page3_box1">
@@ -152,7 +153,7 @@
         <div class="han">
         <h1>한이음 공모전 수상실적</h1>
         <div id="han2">
-            <div id= "han3" style="width: 170%; padding: 0 25%; display:flex; padding-top: 10%;">
+            <div id= "han3" style="width: 200%; padding: 0 25%; display:flex; justify-content: space-between; padding-top: 10%;">
             <div>
             <span>2018</span><hr>
             <div id="18">
@@ -188,9 +189,58 @@
             </div>
             </div>
         </div>
+        <i class="fa-solid fa-chevron-down"  id="icon1" onclick="goEmploy();"></i>
+        <div id="end"></div>
     </div>
     </div>
-    <div class="content"></div>
+    <div class="content">
+        <div class="employ">
+            <h1>DSCE 취업 현황</h1>
+            <h3>Check it out through the button!</h3>
+            <div class="circle">
+                <div id="it">IT</div>
+                <div id="aca">교육</div>
+                <div id="fin">금융</div>
+                <div id="etc">etc</div>
+            </div>
+            <div id="modal1" class="modal-overlay">
+                <div class="modal-window" id="itmodal">
+                    <div class="title">DSCE</div>
+                    <div class="title_2">IT</div>
+                    <div class="close-area" id="closeit">닫기</div>
+                    <div class="contents">
+                    </div>
+                </div>
+            </div>
+            <div id="modal2" class="modal-overlay">
+                <div class="modal-window" id="acamodal">
+                    <div class="title">DSCE</div>
+                    <div class="title_2">교육</div>
+                    <div class="close-area" id="closeaca">닫기</div>
+                    <div class="contents">
+                    </div>
+                </div>
+            </div>
+            <div id="modal3" class="modal-overlay">
+                <div class="modal-window" id="finmodal">
+                    <div class="title">DSCE</div>
+                    <div class="title_2">금융</div>
+                    <div class="close-area" id="closefin">닫기</div>
+                    <div class="contents">
+                    </div>
+                </div>
+            </div>
+            <div id="modal4" class="modal-overlay">
+                <div class="modal-window" id="etcmodal">
+                    <div class="title">DSCE</div>
+                    <div class="title_2">etc</div>
+                    <div class="close-area" id="closeetc">닫기</div>
+                    <div class="contents">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="content"></div>
 </body>
 <script src="./a.js"></script>
