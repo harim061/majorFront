@@ -10,15 +10,15 @@
     overflow: visible;
 }
 .han h1{
-    font-family: 'Lemon';
+    font-family: 'Do Hyeon', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight:  bolder;
     text-align: center;
     color: #FFFFFF;
     font-weight: 400;
     font-size: 60px;
     line-height: 84px;
-    text-shadow: 3px 3px #52A9F3;
+    text-shadow: 3px 3px #6183E7;
 }
 #han2{
     width: 100%;
