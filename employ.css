@@ -48,6 +48,20 @@
     color: #FFFFFF;
     margin: 5% 3%;
     cursor: pointer;
+    animation:circlemove 1.5s infinite linear;
+}
+
+.circle>div:hover{
+    box-shadow: 0 0 30px #fff;
+}
+
+@keyframes circlemove{
+    0%,100%{
+        transform:translate(0%,-5%);
+    }
+    50%{
+        transform:translate(0%,5%);
+    }
 }
 
 /*  모달창 css  */
