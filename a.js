@@ -9,6 +9,7 @@ var page = 1;
 var lastPage = $(".content").length;
 
 $html.animate({scrollTop:0},10);
+
 $(window).on("wheel", function(e){
     if($html.is(":animated")) return;
 
@@ -25,7 +26,6 @@ $(window).on("wheel", function(e){
 
     $html.animate({scrollTop : posTop});
 });
-
 
 jQuery(document).ready(function($){
 
@@ -122,13 +122,9 @@ $("#han2").on('mousewheel',function(e){
     else{
         console.log("down");
         $(this).scrollLeft(-wheelDelta + $(this).scrollLeft());
-        // $html.animate({scrollTop : 4 * $(window).height()});
     }
 });
 
-function goEmploy(){
-    $html.animate({scrollTop : 5 * $(window).height()});
-}
 
 // 취업페이지
 const modal1 = document.getElementById("modal1")
