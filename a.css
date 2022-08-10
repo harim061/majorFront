@@ -6,13 +6,42 @@ body{
 html, body{width: 100%; height: 100%;}
 
 .content{
-                width: 100%; height: 100%;
-                position: relative;
-                }
+        width: 100%; height: 100%;
+        position: relative;
+        }
 
 
 .content:nth-child(even){background-color: #333;}
+/*star*/
 
+/* 별을 감싼 부모 */
+.sky {
+        width: 750px;
+        height: 750px;
+        position: absolute;
+        top: 500px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: moveStar 240s linear infinite;
+}
+
+/* 별 */
+.sky .star {
+        fill: #fff;
+        stroke: none;
+        stroke-width: 0;
+}
+
+/* 별 이동효과 */
+@keyframes moveStar {
+        from {
+        transform: translate(-50%, -50%) rotate(0)
+        }
+
+        to {
+        transform: translate(-50%, -50%) rotate(360deg)
+        }
+}
 
 /*1p*/
 .page_1{
@@ -270,6 +299,18 @@ cursor: pointer;
 background-color: white;
 color: black;
 cursor: pointer;
+}
+
+.text_ani2:hover{
+        background: linear-gradient(to top,#6183E7 50%, transparent 50%);
+}
+@keyframes AniLine{
+        0% {
+        transform: translate3d(0%, 0%, 0);
+        }
+        100% {
+        transform: translate3d(-75%, 0%, 0);
+        }
 }
 
 #icon2{
