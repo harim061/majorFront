@@ -7,7 +7,8 @@
     padding-top: 5%;
 }
 .employ h1{
-    font-family: 'Lemon';
+    font-family: 'Do Hyeon', sans-serif;
+    text-shadow: #6183E7 4px 4px ;
     font-style: normal;
     font-weight: 400;
     font-size: 64px;
@@ -40,7 +41,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Lemon';
+    font-family: 'Do Hyeon', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 55px;
@@ -91,15 +92,22 @@
     display: none;
 }
 .employ .title {
-    display: inline;
-    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.employ .title_2{
     margin: 0;
 }
 
 .employ .close-area {
-    width: 150px;
-    height: 45px;
-    display: inline;
+    width: 130px;
+    height: 40px;
     background: #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 38px;
@@ -109,19 +117,57 @@
     font-size: 15px;
     line-height: 55px;
     text-align: center;
-    padding: 10px;
     color: #FFFFFF;
-
-    margin-left: 27%;
+    margin-left: 40%;
     cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .employ .contents {
-    margin-top: 20px;
-    padding: 0px 10px;
+    margin-top: 50px;
+    padding: 20px 10px;
     background: #FFFAF2;
     width: 1000px;
-    height: 530px;
+    height: 510px;
     border-radius: 40px;
     margin: 0 auto;
+    overflow-y: scroll;
+    padding-left: 60px;
+}
+
+.contents table{
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+.contents table th{
+    font-size: 20px;
+    width: 50%;
+}
+
+.contents table th,td{
+    padding: 3px;
+    margin: 0 auto;
+}
+
+.contents::-webkit-scrollbar {
+    width: 48px; /*스크롤바의 너비*/
+}
+
+.contents::-webkit-scrollbar-thumb {
+    background-color: #6183E7; /*스크롤바의 색상*/
+    background-clip: padding-box;
+    border: 18px solid transparent;
+    border-radius: 50px;
+}
+
+.contents::-webkit-scrollbar-track {
+    background:none /*스크롤바 트랙 색상*/
 }
