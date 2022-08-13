@@ -65,6 +65,7 @@ $sky.innerHTML = htmlDummy;
 
 window.onload = () => {
 makeStars();
+
 /* */
 jQuery(document).ready(function($){
 

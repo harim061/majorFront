@@ -7,8 +7,9 @@
 }
 #page_7 {
 box-sizing: border-box;
-margin-top: -3%;
+margin-top: 1em;
 background-color: var(--colorWhite);
+
 }
 
 a {
@@ -74,21 +75,29 @@ body {
 }
 
 .thumbTitle {
+  display: block;
   font-size: 60px;
   line-height: 30px;
   font-weight: 500;
-  margin: 0 4% 12px;
   margin-bottom: 30px;
   text-align: center;
   color: var(--colorTwo);
+  width: fit-content;
+  height: 80px;
+  margin: 0 auto;
+
+  
 }
-.thumbTitle #st {
+/*
+
+.thumbTitle #st{
+
   font-size: 50px;
-  background: linear-gradient(to right, #7050EE 20%, #6183E7 60%, #52A9F3 80%, #50CAEE 100%);
+  background: linear-gradient(to right, #7050EE 20%, #6183E7 30%, #52A9F3 80%, #50CAEE 100%);
   color: transparent;
   -webkit-background-clip: text;
 }
-
+*/
 .thumbTiles.swiper-container {
   padding: 0 4%;
 }
