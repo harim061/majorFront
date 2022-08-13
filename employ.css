@@ -144,6 +144,7 @@
 }
 
 .contents table{
+    width: 80%;
     text-align: center;
     margin: 0 auto;
     align-items: center;
@@ -153,11 +154,20 @@
 .contents table th{
     font-size: 20px;
     width: 50%;
+    color: #00579E;
 }
 
 .contents table th,td{
     padding: 3px;
     margin: 0 auto;
+}
+
+#modal2 .contents,
+#modal3 .contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
 }
 
 .contents::-webkit-scrollbar {

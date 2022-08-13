@@ -63,6 +63,54 @@ const htmlDummy = new Array(_size).fill().map((_, i) => {
 $sky.innerHTML = htmlDummy;
 }
 
+function goMajor(){
+    $html.animate({scrollTop : 1 * $(window).height()});
+}
+function goSl(){
+    $html.animate({scrollTop : 2 * $(window).height()});
+}
+
+// 로드맵 자바스크립트
+function tgSw(){
+    var status = document.getElementById("sw");
+    if(status.style.visibility=='hidden'){
+    status.style.visibility='visible';
+    }
+    else{
+        status.style.visibility='hidden';
+    }
+}
+
+function tgDb(){
+    var status = document.getElementById("db");
+    if(status.style.display=='none'){
+    status.style.display='block';
+    }
+    else{
+        status.style.display='none';
+    }
+}
+
+function tgWa(){
+    var status = document.getElementById("wa");
+    if(status.style.display=='none'){
+    status.style.display='block';
+    }
+    else{
+        status.style.display='none';
+    }
+}
+
+function tgNs(){
+    var status = document.getElementById("ns");
+    if(status.style.display=='none'){
+    status.style.display='block';
+    }
+    else{
+        status.style.display='none';
+    }
+}
+
 window.onload = () => {
 makeStars();
 
@@ -97,6 +145,7 @@ jQuery(document).ready(function($){
     }, 350);
 
 });
+
 function goMajor(){
     $html.animate({scrollTop : 1 * $(window).height()});
 }
