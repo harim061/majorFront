@@ -190,6 +190,7 @@ height: 40px;
 display: flex;
 color: white;
 font-size: 30px;
+cursor: pointer;
 
 margin-left: 49%;
 margin-top: 8%;
@@ -319,7 +320,7 @@ height: 40px;
 display: flex;
 color: white;
 font-size: 30px;
-
+cursor: pointer;
 margin-left: 49%;
 -webkit-animation: sdb 2s infinite;
 animation: sdb 2s infinite;
