@@ -19,3 +19,9 @@ var mySwiper = new Swiper('.swiper-container', {
       }
   }
 })
+
+$(function() {
+    $('a.thumbTile').on("click",function(e) {
+        e.preventDefault();
+    });
+});
