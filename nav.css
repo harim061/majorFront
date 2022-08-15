@@ -1,0 +1,143 @@
+.page_nav {
+  display: flex;
+
+  height: 100vh;
+}
+
+.btn {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.hamburger-btn {
+  position: fixed;
+  top: 20px;
+  right: 10px;
+  transition: 0.3s ease-in-out;
+  width: 45px;
+  height: 34px;
+  z-index: 333;
+}
+
+.hamburger-btn span {
+  position: absolute;
+  height: 8px;
+  border-radius: 4px;
+  width: 100%;
+  background-color: #fbfbff;
+  top: 0;
+  transition: 0.2s;
+}
+
+.hamburger-btn span:nth-child(1) {
+  top: 0;
+}
+
+.hamburger-btn span:nth-child(2),
+.hamburger-btn span:nth-child(3) {
+  top: 13px;
+}
+
+.hamburger-btn span:nth-child(4) {
+  top: 26px;
+}
+
+.hamburger-btn.active span:nth-child(1),
+.hamburger-btn.active span:nth-child(4) {
+  opacity: 0;
+}
+
+.hamburger-btn.active span:nth-child(2) {
+  transform:rotate(45deg);
+}
+
+.hamburger-btn.active span:nth-child(3) {
+  transform:rotate(-45deg);
+}
+
+.overlay {
+  position: fixed;
+  background-color: #353637;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  z-index: 222;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  margin: 1rem 0;
+  opacity: 0;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.75;
+  transition: opacity 0.2s ease;
+  z-index: 100;
+}
+
+.menu ul li a:hover {
+  opacity: 1;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-25%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+}
+
+.overlay.visible {
+  height: 100%;
+  opacity: 0.95;
+  visibility: visible;
+}
+
+.overlay.visible nav ul li {
+  animation: fadeInLeft 0.3s ease forwards;
+}
+
+.overlay.visible nav ul li:nth-child(1) {
+  animation-delay: 0.23s;
+}
+
+.overlay.visible nav ul li:nth-child(2) {
+  animation-delay: 0.26s;
+}
+
+.overlay.visible nav ul li:nth-child(3) {
+  animation-delay: 0.29s;
+}
+
+.overlay.visible nav ul li:nth-child(4) {
+  animation-delay: 0.32s;
+}
+
+.overlay.visible nav ul li:nth-child(5) {
+  animation-delay: 0.35s;
+}
+
+.overlay.visible nav ul li:nth-child(6) {
+  animation-delay: 0.38s;
+}
