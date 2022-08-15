@@ -346,7 +346,7 @@ text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
 
 .page3_box1{
 position: absolute;
-width: 400px;
+width: 500px;
 height: 300px;
 left: 222px;
 top: 70px;
@@ -354,7 +354,7 @@ top: 70px;
 font-family: 'Libre Franklin';
 font-style: normal;
 font-weight: 400;
-font-size: 23px;
+font-size: 17px;
 line-height: 40px;
 /* or 67% */
 
@@ -375,7 +375,7 @@ top: 150px;
 font-family: 'Libre Franklin';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 17px;
 line-height: 40px;
 /* or 67% */
 
@@ -390,12 +390,12 @@ position: absolute;
 width: 455px;
 height: 200px;
 left: 80px;
-top: 455px;
+top: 500px;
 
 font-family: 'Libre Franklin';
 font-style: normal;
 font-weight: 400;
-font-size: 21px;
+font-size: 17px;
 line-height: 40px;
 /* or 67% */
 
@@ -418,7 +418,7 @@ top: 540px;
 font-family: 'Libre Franklin';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 17px;
 line-height: 40px;
 /* or 67% */
 

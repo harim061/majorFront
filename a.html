@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./employ.css">
     <link rel="stylesheet" href="./strength.css">
     <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./findWolf.css">
+    <link rel="stylesheet" href="./schoolimg.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lemon" />
     <script src="https://kit.fontawesome.com/fc13d61e87.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,6 +23,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Arima:wght@600&family=Jua&family=Merienda:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <title>전공박람회</title>
 </head>
 <body id="wrapper">
@@ -29,7 +32,7 @@
             <div id="com">
                 <div class="title">DSCE</div>
                 <div class="title_2">Make New Flow</div>
-                <div class="title_3">Hello, World</div>
+                <div class="title_3" onmouseover = "find()"; onmouseout="out()">Hello, World</div><img  class="findWolf1" src="./images/wolf.png">
                 <div id="moniter">
                     <div class="bubbles"><p class="cir">Computer Engineering</p></div>
                     <i class="fa-solid fa-chevron-down"  id="icon1" onclick="goMajor();"></i>
@@ -53,40 +56,39 @@
     </div>
     <div class="content" id="page_3">
             <svg class="sky"></svg>
-        <div class="page3_box1">
-            01 . Flow
+        <div class="page3_box1" onmouseenter="flow()" ; onmouseout="flowout()">
+            <img class="flowimg" src="/images/flow.png">
+            01 . 컴퓨터공학전공 학생회 플로우(flow)
             <br>
-            매일매일 흘러가는 시간 속에서 
-            학우분들께 새롭고 특별한 
-            ‘흐름’ 을 선물하도록 노력합니다.
+            총 14명의 구성원으로 이루어진<br> 컴퓨터공학전공 제17대 학생회입니다.<br>
+            한 줄기로 잇따라 진행되는 현상을 비유하는 흐름을 뜻하며,<br>
+            학생회 내부 활발한 소통을 통하여 유대감을 형성하고,<br> 이를 바탕으로 학우들을 위해
+            다양한 행사 기획 및 주최, <br>진행을 도맡고 있습니다.
         </div>
         <div class="page3_box2">
             02. 늘푸른 소리
             <br>
-            IT관련 전공을 꿈꾸는 청소년들에게
-            교육 봉사를 진행하고, 
-            IT기술 특강, 스터디, 프로젝트를
-            통해 동아리원들과 함께 전공 
-            관련 학습 능력을 기를 수 있습니다.            
+            IT관련 전공을 꿈꾸는 청소년들에게 <br>교육 봉사를 진행하고, IT기술 특강, 스터디,
+프로젝트를<br> 통해 동아리원들과 함께 전공 관련 학습 능력을 <br>기를 수 있습니다.         
         </div>
         
             <MARQUEE  scrollamount="35">
                 <span id="horizon" style="color: white;">What kind of </span>
                 <span  id="horizon" class="txt anim-text-flow">school life?</span>
             </MARQUEE>
-        <div class="page3_box3">
+        <div class="page3_box3"onmouseenter="cn()" ; onmouseout="cnout()">
+            <img src="./images/cn.png" class="cnimg" >
             03. 코너
             <br>
-            개발 소모임을 통하여 프로그램들을
-            통해 선후배와 교류하며 전공 학습 능력을 
-            기르고 다양한 프로젝트 경험을 쌓습니다.         
+            2021년 신설된 개발 소모임으로, 1회의 스터디와<br> 1회의 프로젝트를 필수로 합니다.<br>
+학교 정기 커리큘럼 외 주제를 선정하여 <br>반년동안 스터디를 진행하며,
+선,후배와의 교류를 중점으로 함께 성장해나가는 것을 목표로 합니다.       
         </div>
         <div class="page3_box4">
             04. 컴스터디
             <br>
-            전공 내 팀을 이루어 한 학기 동안 전공 공부
-            프로젝트, 자격증 등의 목표를 가지고 
-            동기들과 스터디를 진행하며 함께 발전합니다.
+            전공 내 팀을 이루어 한 학기 동안 <br>전공 공부, 프로젝트, 자격증 등의 목표를가지고  <br>
+동기들과 스터디를 진행하며 함께 발전합니다.
             
         </div>
     </div>
@@ -96,13 +98,13 @@
             <div class="gooey">
                 <div class="rmtitle">
                 <h3 style="color: #00579E">What’s your choice?</h3>
-                <h1 style="color: #FFFFFF; font-size: 60px; margin: 0px; ">DSCE Road Map</h1>
+                <h1 style="color: #FFFFFF; font-size: 60px; margin: 0px; text-shadow: 0 0.1em 20px black, 0.05em -0.03em 0 black, 0.05em 0.005em 0 black, 0em 0.08em 0 black, 0.05em 0.08em 0 black, 0px -0.03em 0 black, -0.03em -0.03em 0 black, -0.03em 0.08em 0 black, -0.03em 0 0 black;">DSCE Road Map</h1>
                 <p style="color: #0A1843; margin-bottom: 1%; text-decoration: underline;">according to the field of employment</p>
-                <i style="color: #fff; font-size: 25px; text-shadow: 4px 4px #6183E7; ">Click what you want!</i>
+                <i style="color: #fff; font-size: 25px; text-shadow: 4px 4px #6183E7;text-shadow: 0 0.1em 20px black, 0.05em -0.03em 0 black, 0.05em 0.005em 0 black, 0em 0.08em 0 black, 0.05em 0.08em 0 black, 0px -0.03em 0 black, -0.03em -0.03em 0 black, -0.03em 0.08em 0 black, -0.03em 0 0 black; ">Click what you want!</i>
             </div>
             <table>
-                <thead style="color: #B8E1FF; text-align: center; text-shadow: 2px 2px #0A1843;">
-                <th><div style="display: flex; justify-content: center;"><div id="choi" onclick="tgSw();"><div class="back"><p>최승훈 교수님</p></div></div><div id="u" onclick="tgSw();"><div class="back"><p>유견아 교수님</p></div></div></div>고급소프트웨어 개발자</th>
+                <thead style="color: white; text-align: center;">
+                <th><div style="display: flex; justify-content: center;"><div id="choi" onclick="tgSw();"><div class="back"><p>최승훈 교수님</p></div></div><div id="u" onclick="tgSw();"><div class="back" ><p>유견아 교수님</p></div></div></div>고급소프트웨어 개발자</th>
                 <th><div id="park" onclick="tgDb();"><div class="back"><p>박우창 교수님</p></div></div>데이터베이스 프로그래머</th>
                 <th><div id="ylee" onclick="tgWa();"><div class="back"><p>이경미 교수님</p></div></div>웹/앱 개발자</th>
                 <th><div id="olee" onclick="tgNs();"><div class="back"><p>이주영 교수님</p></div></div>네트워크 보안 프로그래머</th>
@@ -159,12 +161,12 @@
     </div>
     <div class="content" id="page_5"><!--한이음 페이지-->
         <div class="han">
-        <h1>Hanium Award Status</h1>
+        <h1 style="text-shadow: 0 0.1em 20px black, 0.05em -0.03em 0 black, 0.05em 0.005em 0 black, 0em 0.08em 0 black, 0.05em 0.08em 0 black, 0px -0.03em 0 black, -0.03em -0.03em 0 black, -0.03em 0.08em 0 black, -0.03em 0 0 black;">Hanium Award Status</h1>
         <div id="han2">
-            <div id= "han3" style="width: 200%; padding: 0 25%; display:flex; justify-content: space-between; padding-top: 10%;">
+            <div id= "han3" style="width: 200%; padding: 0 25%; display:flex; justify-content: space-between; padding-top: 10%; ">
             <div>
             <span>2018</span><hr>
-            <div id="18">
+            <div id="18" style="font-family: 'Libre Franklin';">
                 동상 “얼굴 트래킹을 이용한 영상 속 등장인물 분석 및 검색 서비스”<br>
                 장려상 “AI 기반의 기업형 Realtime Chabot 개발을 통한 일정 관리 스마트시스템”<br>
                 장려상 “AWS을 활용한 난청인을 위한 Hearing Aid (보청기)”<br>
@@ -201,7 +203,7 @@
     </div>
     <div class="content" id="page_6">
         <div class="employ">
-            <h1 >DSCE Employment Status </h1>
+            <h1 style="text-shadow: 0 0.1em 20px black, 0.05em -0.03em 0 black, 0.05em 0.005em 0 black, 0em 0.08em 0 black, 0.05em 0.08em 0 black, 0px -0.03em 0 black, -0.03em -0.03em 0 black, -0.03em 0.08em 0 black, -0.03em 0 0 black;">DSCE Employment Status </h1>
             <h3>Check it out through the button!</h3>
             <div class="circle">
                 <div id="it">IT</div>
@@ -215,7 +217,7 @@
                     <div class="title_2">IT</div>
                     <div class="close-area" id="closeit">닫기</div>
                     <div class="contents">
-                        <table>
+                        <table style="font-family: 'Libre Franklin';">
                             <tr>
                                 <th>회사명</th>
                                 <th>직명</th>
@@ -418,7 +420,7 @@
                     <div class="title_2">교육</div>
                     <div class="close-area" id="closeaca">닫기</div>
                     <div class="contents">
-                        <table>
+                        <table style="font-family: 'Libre Franklin';">
                             <tr>
                                 <th>학교명</th>
                                 <th>직명</th>
@@ -459,7 +461,7 @@
                     <div class="title_2">금융</div>
                     <div class="close-area" id="closefin">닫기</div>
                     <div class="contents">
-                        <table>
+                        <table  style="font-family: 'Libre Franklin';">
                             <tr>
                                 <th>회사명</th>
                                 <th>직명</th>
@@ -530,7 +532,7 @@
                     <div class="title_2">etc</div>
                     <div class="close-area" id="closeetc">닫기</div>
                     <div class="contents">
-                        <table>
+                        <table style="font-family: 'Libre Franklin';">
                             <tr>
                                 <th>회사명</th>
                                 <th>직명</th>
@@ -835,9 +837,11 @@
         <li><a href="#">Employment Status</a>|</li>
         <li><a href="#">Strength & Goods</a>|</li>
         </ul>
-        <p>©2022 DSCE Major Exhibition WEB |  All Rights Reserved</p>
+        <p>©2022 <b style="font-weight: 200;" onmouseover = "find2()"; onmouseout="out2()">DSCE</b> Major Exhibition WEB |  All Rights Reserved</p>
+        <img class="findWolf2" src="/images/wolf.png">
     </footer>
 </body>
     <script src="./a.js"></script>
     <script src="./strength.js"></script>
+    <script src="./findWolf.js"></script>
 </html>

@@ -1,0 +1,17 @@
+.flowimg{
+    position : absolute;
+    width: 200px;
+    height: 200px;
+    top: -15px;
+    left: 500px;
+    display: none;
+}
+
+.cnimg{
+    position : absolute;
+    width: 200px;
+    height: 200px;
+    top: -15px;
+    left: 500px;
+    display: none;
+}
