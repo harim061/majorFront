@@ -8,8 +8,8 @@
 #page_7 {
 box-sizing: border-box;
 margin-top: 1em;
-background-color: var(--colorWhite);
-
+background-color: #0A1843;
+height: 120%; /*margin-top 하면 footer 안보임*/
 }
 
 a {
@@ -36,7 +36,7 @@ a h3 {
   font-size: 14px;
   text-align: center;
   padding: 20px;
-  color: var(--colorTwo);
+  color: var(--colorWhite);
 }
 
 a:hover .top {
@@ -81,7 +81,7 @@ body {
   font-weight: 500;
   margin-bottom: 30px;
   text-align: center;
-  color: var(--colorTwo);
+  color: var(--colorWhite);
   width: fit-content;
   height: 80px;
   margin: 0 auto;
@@ -170,7 +170,7 @@ a:hover .desc {
 
 .thumbTiles .swiper-button-prev::after,
 .thumbTiles .swiper-button-next::after {
-  color: #000;
+  color: #fff;
   font-size: 4vw;
   font-weight: bold;
   transition: transform 0.1s ease-out;
