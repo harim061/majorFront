@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="./a.css">
+    <link rel="stylesheet" href="./nav.css">
     <link rel="stylesheet" href="./roadmap.css">
     <link rel="stylesheet" href="./han.css">
     <link rel="stylesheet" href="./employ.css">
@@ -13,6 +14,7 @@
     <link rel="stylesheet" href="./footer.css">
     <link rel="stylesheet" href="./findWolf.css">
     <link rel="stylesheet" href="./schoolimg.css">
+    <link rel="stylesheet" href="./goods.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lemon" />
     <script src="https://kit.fontawesome.com/fc13d61e87.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,6 +31,29 @@
 <body id="wrapper">
     <div class="content">
         <div class="page_1">
+            <div class="nav">
+                <div class="btn">
+                    <a href="#" class="hamburger-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+                
+                <div class="overlay">
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="#">Computer Engineering</a></li>
+                            <li><a href="#">Student Culture</a></li>
+                            <li><a href="#">DSCE Roadmap</a></li>
+                            <li><a href="#">Hanium</a></li>
+                            <li><a href="#">Employment Status</a></li>
+                            <li><a href="#">Strength & Goods</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
             <div id="com">
                 <div class="title">DSCE</div>
                 <div class="title_2">Make New Flow</div>
@@ -808,40 +833,114 @@
     </div>
     </section>
     </div>
+
     <div class="content" id="page_8">
         <section>
-            <h1 style="text-align: center;">
-                Goods.
+            <h1 class="page_title">
+                Goods
             </h1>
         </section>
+
+        <!--items-->
+        <section id="items">
+            <div class="boxs ibox1">
+                <img src="./images/goods1.jpg" alt="" class="goods goods1">
+                <img src="./images/goods2.jpg" alt="" class="goods goods2">
+            </div>
+            <div class="boxs ibox2">
+                <h3 class="goods1 name">Stickers</h3>
+                <p class="goods1 desc">MAKE NEW FLOW <br>
+                새로운 흐름을 만들어 볼까요?<br>
+                흐름이 가득한 스티커와 함께해요! <br>
+                당신의 노트북에도 새로운 흐름을 선물할게요:) <br>
+                </p>
+            </div>
+            <div class="boxs ibox3">
+                <img src="./images/goods3.jpg" alt="" class="goods goods3">
+            </div>
+            <div class="boxs ibox4">
+                <h3 class="goods3 name">Hand Mirror</h3>
+                <p class="goods3 desc">우리의 무한한 우주를 응원해 <br>
+                끝없는 가능성을 가진 컴공의 우주들을<br>
+                손거울로 표현했습니다. <br>
+                내 우주를 손에 소장해 보세요! <br>
+                </p>
+            </div>
+
+
+        </section>
+
     </div>
-    <footer>
-        <div class="waves">
-        <div class="wave" id="wave1"></div>
-        <div class="wave" id="wave2"></div>
-        <div class="wave" id="wave3"></div>
-        <div class="wave" id="wave4"></div>
+    <div class="content" id="page_9">
+        <!--items2-->
+        <section id="items2">
+            <div class="boxs ibox5">
+                <img src="./images/goods4.jpg" alt="" class="goods goods4">
+            </div>
+            <div class="boxs ibox6">
+                <h3 class="goods4 name">Mouse Pad</h3>
+                <p class="goods3 desc">시스템 가동 준비 완료! <br>
+                0과 1로 가득 찬 컴퓨터공학을 <br>
+                한 번 만나볼까요? <br>
+                특별히 준비한 플레이리스트와 함께요! <br>
+                </p>
+            </div>
+            <div class="boxs ibox7">
+                <img src="./images/goods5.jpg" alt="" class="goods goods5">
+            </div>
+            <div class="boxs ibox8">
+                <h3 class="goods4 name">Memo Pad</h3>
+                <p class="goods3 desc">안녕? 내 이름은 늑때! <br>
+                덕냥이를 만나러 튀어나왔어요! <br>
+                파일 속에서 튀어나온 컴퓨터공학전공의 마스코트, <br>
+                늑때가 튀어나온 순간입니다. <br>
+                덕우들의 매일매일 달라지는 흐름을 책임지고 보관할게요! <br>
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <div class="pageforitems" style="width:100%; height:1000px;">
+        <p>여기는 뭘까?</p>
+    </div>
+    <!--page9-->
+
+    <div id="lastpg">
+        <div class="content" id="page_10">
+            <p style="background-color: rgb(24, 23, 112); color: rgb(148, 38, 38); z-index: 10;">
+                여기가 마지막 <br>
+            </p>
         </div>
-        <ul class="social_icon">
-        <!--컴공 학과 홈페이지 링크-->
-        <li><a href="#"><ion-icon name="school-outline"></ion-icon></a></li>
-        <!--컴공 학생회 인스타그램 링크-->
-        <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
-        </ul>
-        <ul class="menu">
-        <!--하단 내비게이터바-->
-        <li><a href="#">Computer Engineering</a>|</li>
-        <li><a href="#">Student Culture</a>|</li>
-        <li><a href="#">DSCE Roadmap</a>|</li>
-        <li><a href="#">Hanium</a>|</li>
-        <li><a href="#">Employment Status</a>|</li>
-        <li><a href="#">Strength & Goods</a>|</li>
-        </ul>
-        <p>©2022 <b style="font-weight: 200;" onmouseover = "find2()"; onmouseout="out2()">DSCE</b> Major Exhibition WEB |  All Rights Reserved</p>
-        <img class="findWolf2" src="/images/wolf.png">
-    </footer>
+        <footer style="z-index: 2;">
+            <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+            </div>
+            <ul class="social_icon">
+            <!--컴공 학과 홈페이지 링크-->
+            <li><a href="#"><ion-icon name="school-outline"></ion-icon></a></li>
+            <!--컴공 학생회 인스타그램 링크-->
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            </ul>
+            <ul class="menu">
+            <!--하단 내비게이터바-->
+            <li><a href="#">Computer Engineering</a>|</li>
+            <li><a href="#">Student Culture</a>|</li>
+            <li><a href="#">DSCE Roadmap</a>|</li>
+            <li><a href="#">Hanium</a>|</li>
+            <li><a href="#">Employment Status</a>|</li>
+            <li><a href="#">Strength & Goods</a></li>
+            </ul>
+            <p>©2022 <b style="font-weight: 200;" onmouseover = "find2()"; onmouseout="out2()">DSCE</b> Major Exhibition WEB |  All Rights Reserved</p>
+            <img class="findWolf2" src="/images/wolf.png">
+        </footer>
+    </div>
 </body>
     <script src="./a.js"></script>
     <script src="./strength.js"></script>
     <script src="./findWolf.js"></script>
+    <script src="./nav.js"></script>
+    <script src="./goods.js"></script>
 </html>
