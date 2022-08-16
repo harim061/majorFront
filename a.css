@@ -43,7 +43,7 @@ html, body{width: 100%; height: 100%;}
 }
 
 /*1p*/
-.page_1{
+#page_1{
         background: linear-gradient(137deg, #B8E1FF, #50CAEE, #52A9F3, #7050EE,#0A1843);
         background-size: 300% 300%;
         width: 100%;
