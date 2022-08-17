@@ -14,7 +14,7 @@ footer {
   position: relative;
   transform: translateY(-20%);
   bottom: 0;
-  height: 200px;
+  height: 250px;
   width: 100%;
   content:' ';
   background: linear-gradient(to bottom,#3586ff 10%,#3682f5 30%, #154792 80%, transparent);
@@ -76,7 +76,7 @@ footer p {
   margin-bottom: 10px;
   font-size: 1.1em;
   position: relative;
-  bottom: 20px;
+  bottom: 0px;
 }
 footer .wave {
   position: absolute;
