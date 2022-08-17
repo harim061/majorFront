@@ -1,4 +1,5 @@
 #page_10 {
+  background-color: #0A1843;
   height: fit-content;
 }
 #round {
@@ -67,7 +68,7 @@ background-size: 300% !important;
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-animation: Gradient 30s ease infinite !important;
+animation: Gradient 10s ease infinite !important;
 /* padding-left: 0; */
 line-height: 100px;
 font-style: italic;
@@ -231,28 +232,27 @@ border-collapse: collapse;
 border-spacing: 0;
 }
 .rolling a {
-  width:40vw;
-  height:8vw;
+  width:70vw;
+  height:7vh;
   line-height:50px;
 }
 a.roll {
 color: #fff;
 mix-blend-mode: difference;
-line-height: 8vw;
-font-size: 5vw;
-margin-left: 9vw;
-text-align: center;
+font-size: 78px;
+margin-left: 11vw;
+line-height: 120px;
 }
 
 /* body{background-color:#fff;} */
 
 .banner {
-width:40vw; height:8vw;  background-color:#000;
+border-radius: 80px;
+width:600px; 
+height:120px;  background-color:#000;
 position: relative;
 top: -25vw;
 left: 47vw;
-
-border-radius: 20%;
 }
 .rolling{position:relative; width:100%; height:32vw; }
 .rolling span{width:40vw; height:8vw; line-height:50px; overflow: hidden;}

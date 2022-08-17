@@ -1,6 +1,6 @@
 #page_8 {
   width: 100%;
-  margin-top: -20%;
+  margin-top: -12%;
   background-color: #0A1843;
   box-sizing: border-box;
   height: 100%;
@@ -12,6 +12,7 @@
   background-color: #0A1843;
   box-sizing: border-box;
   height: 100%;
+  margin-top: -1%;
 }
 
 section h1.page_title {
@@ -62,7 +63,7 @@ section h1.page_title {
   grid-row: 1/2;
 }
 .ibox2 {
-
+  margin-top: -3%;
   grid-column: 2/3;
 }
 .ibox3 {
@@ -70,7 +71,7 @@ section h1.page_title {
   grid-row: 2/3;
 }
 .ibox4 {
-
+  margin-top: -19%;
   grid-column: 2/3;
 }
 
@@ -78,16 +79,16 @@ section h1.page_title {
   grid-column: 1/2;
   grid-row: 1/2;
 }
-.ibox6 {
-
+.ibox6 {  
+  margin-top: 4%;
   grid-column: 2/3;
 }
 .ibox7 {
-
+  margin-top: -28%;
   grid-row: 2/3;
 }
 .ibox8 {
-
+  margin-top: -17%;
   grid-column: 2/3;
 }
 /*
@@ -134,8 +135,8 @@ section h1.page_title {
 }
 
 .boxs img.goods1 {
-  width: 50%;
-  height: 60%;
+  width: 30%;
+  height: 40%;
   display: inline;
   position: relative;
   top: 5%;
@@ -145,12 +146,12 @@ section h1.page_title {
 }
 
 .boxs img.goods2 {
-  width: 50%;
-  height: 60%;
+  width: 40%;
+  height: 50%;
   display: inline;
   position: relative;
-  top: -30%;
-  left: 40%;
+  top: 10%;
+  left: 10%;
   z-index: 1;
 }
 
@@ -160,26 +161,27 @@ section h1.page_title {
   border-radius: 100%;
   display: inline;
   position: relative;
-  top: 25%;
+  top: -12%;
   left: 40%;
 }
+
 
 .boxs img.goods4 {
   width: 50%;
   height: 50%;
   display: inline;
   position: relative;
-  top: 25%;
+  top: 15%;
   left: 25%;
 }
 
 .boxs img.goods5 {
-  width: 50%;
-  height: 50%;
+  width: 40%;
+  height: 40%;
   display: inline;
   position: relative;
-  top: 25%;
-  left: 25%;
+  top: 20%;
+  left: 30%;
 }
 .boxs img.goods {
   opacity: 0;
