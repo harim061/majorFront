@@ -11,8 +11,8 @@
     position : absolute;
     width: 150px;
     height: 120px;
-    top: 50px;
-    left: 550px;
+    top: 25px;
+    left: 540px;
     display: none;
     animation:wolfmove 1.5s infinite  ;
 }
