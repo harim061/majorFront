@@ -7,6 +7,7 @@
     display: none;
     animation:wolfmove 1.5s infinite ;
 }
+
 .findWolf2{
     position : absolute;
     width: 150px;
@@ -16,7 +17,6 @@
     display: none;
     animation:wolfmove 1.5s infinite  ;
 }
-
 
 @keyframes wolfmove{
     0%{

@@ -1,6 +1,7 @@
 function find(){
     document.querySelector(".findWolf1").style.display = "block";
 }
+
 function out(){
     document.querySelector(".findWolf1").style.display = "none";
 }
@@ -8,6 +9,7 @@ function out(){
 function find2(){
     document.querySelector(".findWolf2").style.display = "block";
 }
+
 function out2(){
     document.querySelector(".findWolf2").style.display = "none";
 }

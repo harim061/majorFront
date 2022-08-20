@@ -1,16 +1,19 @@
 #page_10 {
   background-color: #0A1843;
   height: fit-content;
+  font-family: 'Libre Franklin';
 }
+
 #round {
   position: relative;
-  top: -100px;
+  top: -85px;
   padding: 0;
   margin: 0;
   background: rgb(255, 255, 255); 
   height: 100px;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
+  z-index: 5;
 }
 
 .paper {
@@ -26,7 +29,6 @@
   padding-top: 30px;
   padding-left: 7%;
 }
-
 
 .name-title {
 width: fit-content;
@@ -49,12 +51,12 @@ left: 50px;
 padding-right: 20px;
 font-size: 2.5vw;
 }
+
 .name-title h2 {
   color: #121212;
 position: relative;
-top: -30px;
+top: -50px;
 }
-
 
 .special-2.no-spacing {
 width: 450px;
@@ -96,6 +98,7 @@ grid-row-start: 2;
 grid-row-end: 3;
 position: relative;
 left: 100px;
+top: -3em;
 max-width: 100%;
 margin-top: 0.1rem;
 -webkit-box-orient: horizontal;
@@ -114,10 +117,9 @@ flex-direction: column;
 -webkit-box-align: start;
 align-items: flex-start;
 grid-row-gap: 0rem;
-
 margin: 80px 30px;
-
 }
+
 .button.footer-link-align-left {
 padding-left: 0;
 }
@@ -142,6 +144,7 @@ max-width: 100%;
 a {
 text-decoration: inherit;
 }
+
 a:-webkit-any-link {
   cursor: pointer;
 } 
@@ -174,6 +177,7 @@ justify-content: center;
 -webkit-box-align: center;
 align-items: center;
 }
+
 .text-size-medium {
 font-size: 1.5rem;
 }
@@ -186,6 +190,7 @@ margin-bottom: 0.75rem;
 .text-size-small {
 font-size: 1.125rem;
 }
+
 .text-color-black {
 color: #000;
 }
@@ -211,33 +216,41 @@ font: inherit;
 vertical-align: baseline;
 text-decoration:none;
 }
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 display: block;
 }
+
 body {
 line-height: 1;
 }
+
 ol, ul {
 list-style: none;
 }
+
 blockquote, q {
 quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 content: '';
 content: none;
 }
+
 table {
 border-collapse: collapse;
 border-spacing: 0;
 }
+
 .rolling a {
   width:70vw;
   height:7vh;
   line-height:50px;
 }
+
 a.roll {
   display: block;
   width: 900px;
@@ -247,7 +260,7 @@ a.roll {
   mix-blend-mode: difference;
   font-size: 78px;
   margin-left: -8.5vw;
-  line-height: 120px;
+  line-height: 110px;
 }
 
 /* body{background-color:#fff;} */
@@ -260,5 +273,7 @@ position: relative;
 top: -25vw;
 left: 47vw;
 }
+
 .rolling{position:relative; width:100%; height:32vw; }
+
 .rolling span{width:40vw; height:8vw; line-height:50px; overflow: hidden;}
