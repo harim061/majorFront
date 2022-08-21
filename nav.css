@@ -1,6 +1,5 @@
 .page_nav {
   display: flex;
-
   height: 100vh;
 }
 
@@ -89,7 +88,7 @@
 .menu ul li a {
   text-decoration: none;
   color: #fff;
-  opacity: 0.75;
+  opacity: 0.65;
   transition: opacity 0.2s ease;
   z-index: 100;
   font-size: 20px;

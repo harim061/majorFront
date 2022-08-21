@@ -5,10 +5,11 @@
   --tileBorderRadius: 4px;
   --fontOne: 'Lemon', Helvetica, Arial, sans-serif;
 }
+
 #page_7 {
 box-sizing: border-box;
 margin-top: 3.5em;
-
+font-family: 'Libre Franklin';
 background-color: #0A1843;
 height: 120%; /*margin-top 하면 footer 안보임*/
 }
@@ -18,10 +19,12 @@ a {
   width: auto;
   margin: 5px;
 }
+
 a .screen {
   position: relative;
   overflow: hidden;
 }
+
 a .screen .top {
   position: absolute;
   bottom: 150%;
@@ -34,7 +37,8 @@ a .screen .top {
 }
 
 a h3 {
-  font-size: 14px;
+  font-size: 1em;
+  font-weight: 700;
   text-align: center;
   padding: 20px;
   color: var(--colorWhite);
@@ -43,7 +47,19 @@ a h3 {
 a:hover .top {
   bottom: 45%;
   text-align: center;
-  left: 30px;
+  margin: 0 auto;
+}
+
+a:hover .top1 {
+  left: 38%;
+}
+
+a:hover .top2 {
+  left: 30%;
+}
+
+a:hover .top3 {
+  left: 20%;
 }
 
 a .screen::after {
@@ -71,7 +87,7 @@ body {
 }
 
 .thumbSection {
-  padding-top: 3%;
+  padding-top: 0.5%;
   color: var(--colorWhite);
 }
 
@@ -86,19 +102,18 @@ body {
   width: fit-content;
   height: 80px;
   margin: 0 auto;
-
   
 }
+
 /*
-
 .thumbTitle #st{
-
   font-size: 50px;
   background: linear-gradient(to right, #7050EE 20%, #6183E7 30%, #52A9F3 80%, #50CAEE 100%);
   color: transparent;
   -webkit-background-clip: text;
 }
 */
+
 .thumbTiles.swiper-container {
   padding: 0 4%;
 }
@@ -113,9 +128,11 @@ body {
   height: 25vh;
   overflow: hidden;
 }
+
 a:hover h3 {
 display: none;
 }
+
 /*img hover시, 이미지 확대*/
 /*
 .thumbTile__image:hover {
@@ -123,18 +140,33 @@ display: none;
   transform: scale(1.2);
 }
 */
+
 a .desc {
   display: none;
   text-align: center;
-  background-color: #20126d;
+  background-color: #FFFAF2;
   width: auto;
   height: 300px;
   border-radius: 5px;
   margin: 0 auto;
 }
-a .desc p,
+
+a .desc p {
+  margin: 15px auto;
+  color: var(--colorOne);
+  line-height: 2em;
+  font-weight: 700;
+}
+
+a .desc p.long {
+  margin: 0 auto;
+  margin-top: -5px;
+  color: var(--colorOne);
+  line-height: 2.0em;
+}
+
 a .desc i {
-  color: var(--colorWhite);
+  color: var(--colorOne);
   margin: 25px auto;
 }
 
@@ -142,6 +174,7 @@ a:hover .desc {
   display: block;
   position: relative;
   top: 50px;
+  border-radius: 10%;
 }
 
 /*  margin-top: 200px;*/
@@ -151,7 +184,7 @@ a:hover .desc {
   height: 10%;
   width: 4%;
   width: calc(4% - 5px);
-  top: 50%;
+  top: 40%;
   bottom: 0;
   margin: 0;
   /* background-color: rgba(255, 250, 242, 0.5);; */
@@ -229,4 +262,3 @@ a:hover .desc {
     opacity: 1;
   }
 }
-

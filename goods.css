@@ -36,7 +36,6 @@ section h1.page_title {
   text-align: center;
 }
 
-
 #items {
   width: 100%;
   display: grid;
@@ -57,60 +56,52 @@ section h1.page_title {
   color: white;
 }
 
-
 .ibox1 {
   grid-column: 1/2;
   grid-row: 1/2;
 }
+
 .ibox2 {
   margin-top: -3%;
   grid-column: 2/3;
 }
-.ibox3 {
 
+.ibox3 {
+  position: relative;
+  top: 30px;
   grid-row: 2/3;
 }
+
 .ibox4 {
   margin-top: -19%;
   grid-column: 2/3;
+  position: relative;
+  top: 70px;
 }
 
 .ibox5 {
   grid-column: 1/2;
   grid-row: 1/2;
 }
+
 .ibox6 {  
   margin-top: 4%;
   grid-column: 2/3;
 }
+
 .ibox7 {
   margin-top: -28%;
   grid-row: 2/3;
+  position: relative;
+  top: 50px;
 }
+
 .ibox8 {
   margin-top: -17%;
   grid-column: 2/3;
+  position: relative;
+  top: 70px;
 }
-/*
-.ibox5 {
-
-  grid-row: 3/4;
-}
-
-.ibox6 {
-
-  grid-column: 2/3;
-}
-.ibox7 {
-
-  grid-row: 4/5;
-}
-
-.ibox8 {
-
-  grid-column: 2/3;
-}
-*/
 
 .boxs img {
   width: 200px;
@@ -165,7 +156,6 @@ section h1.page_title {
   left: 40%;
 }
 
-
 .boxs img.goods4 {
   width: 50%;
   height: 50%;
@@ -183,6 +173,7 @@ section h1.page_title {
   top: 20%;
   left: 30%;
 }
+
 .boxs img.goods {
   opacity: 0;
 }
