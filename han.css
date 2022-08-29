@@ -80,3 +80,54 @@
 /* #han3 div>div{
     padding: 30px;
 } */
+
+@media screen and (max-width:1280px){
+    /*태블릿 가로*/
+    .roadmap table{
+        width: 70%;
+    }
+    .rmtitle h1{
+        font-size: 40px;
+    }
+    .rmtitle i{
+        font-size: 14px;
+    }
+    .back, #choi ,#park, #u, #ylee, #olee{
+        width:110px; height: 110px;
+        font-size: 14px;
+    }
+    th{
+        font-size: 12px;
+    }
+    .mc{
+        font-size: 12px;
+        line-height: 120%;
+    }
+}
+@media screen and (max-width:420px) {
+    /* 모바일 세로 */
+    #page_4{
+        width: 100%;
+    }
+    .roadmap table{
+        width: 100%;
+        font-size: 7px;
+    }
+    .rmtitle h1{
+        font-size: 35px;
+    }
+    p{
+        display: hidden;
+    }
+    .rmtitle i{
+        font-size: 14px;
+    }
+    .back, #choi ,#park, #u, #ylee, #olee{
+        width:73px; height: 73px;
+        font-size: 15px;
+    }
+    .mc{
+        font-size: 2px;
+        line-height: 150%;
+    }
+}
