@@ -196,3 +196,434 @@
 .contents::-webkit-scrollbar-track {
     background:none /*스크롤바 트랙 색상*/
 }
+@media screen and (max-width:1280px){
+    .employ h1{
+        font-size: 40px;
+    }
+    .employ h3{
+        font-size: 20px;
+    }
+    .circle div{
+        width: 140px;
+        height: 140px;
+        font-size: 38px;
+    }
+    #itmodal, #acamodal, #finmodal, #etcmodal{
+        width: 65vw;
+        height: 45vw;
+        margin: 0 auto;
+        margin-top: 10vw;
+    }
+    .employ .contents{
+        width: 55vw;
+        height: 35vw;
+    }
+    .employ .contents table{
+        font-size: 1vw;
+    }
+    .contents table th{
+        font-size: 2vw;
+    }
+}
+@media screen and (max-width:1020px) {
+    .employ h1{
+        font-size: 40px;
+        line-height: 100%;
+    }
+    .employ h3{
+        font-size: 16px;
+        line-height: 120%;
+    }
+    .circle div{
+        width: 70px;
+        height: 70px;
+        font-size: 25px;
+    }
+    #itmodal, #acamodal, #finmodal, #etcmodal{
+        width: 85vw;
+        height: 55vw;
+        margin: 0 auto;
+        margin-top: 10vw;
+    }
+    .employ table{
+        width: 100%;
+    }
+    .employ .contents{
+        width: 65vw;
+        height: 35vw;
+    }
+    .employ .contents table{
+        font-size: 0.3vw;
+    }
+    .contents table th{
+        font-size: 0.5vw;
+    }
+        
+        .title{
+        width: fit-content;
+        height: fit-content;
+        font-family: 'Lemon';
+        font-size: 3vw;
+        display: inline;
+        margin-left: 5%;
+        background: linear-gradient(125.37deg, #000000 62.14%, #5896F2 73.95%, #6183E7 81.63%, #7050EE 87.3%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        }
+        
+        .title_2{
+        width:  fit-content;
+        height:  fit-content;
+        display: inline;
+        font-family: 'Libre Franklin';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 3vw;
+        color: #000000;
+        margin-left: 19vw;
+        line-height: 55px;
+        }
+        
+        .title_3{
+        width: fit-content;
+        height: fit-content;
+        display: inline;
+        background: #000000;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 38px;
+        font-family: 'Lemon';
+        font-style: normal;
+        font-size:2vw;
+        line-height: 55px;
+        text-align: center;
+        padding: 10px;
+        color: #FFFFFF;
+        margin-left: 14vw;
+        }
+}
+
+@media screen and (max-width:799px) {
+    
+#itmodal{
+    width: 90vw;
+    height: 55vw;
+    background: #ffffff;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    margin: 0 auto;
+    margin-top: 10vw;
+    }
+    
+    .contents{
+    width: 82vw;
+    height: 41vw;
+    background: #6183E7;
+    border-radius: 40px;
+    margin: 0 auto;
+    
+    }
+    .employ .close-area {
+        width: 15vw;
+        height: 7vw;
+        font-size: 3vw;
+    }
+    .title{
+    width: fit-content;
+    height: fit-content;
+    font-family: 'Lemon';
+    font-size: 3vw;
+    display: inline;
+    margin-left: 5%;
+    background: linear-gradient(125.37deg, #000000 62.14%, #5896F2 73.95%, #6183E7 81.63%, #7050EE 87.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    }
+    
+    .title_2{
+    width:  fit-content;
+    height:  fit-content;
+    display: inline;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3vw;
+    color: #000000;
+    margin-left: 19vw;
+    line-height: 55px;
+    }
+    
+    .title_3{
+    width: fit-content;
+    height: fit-content;
+    display: inline;
+    background: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 38px;
+    font-family: 'Lemon';
+    font-style: normal;
+    font-size:2vw;
+    line-height: 55px;
+    text-align: center;
+    padding: 10px;
+    color: #FFFFFF;
+    margin-left: 14vw;
+    }
+}
+
+@media screen and (max-width:599px) {
+    
+#itmodal{
+    width: 90vw;
+    height: 55vw;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    margin: 0 auto;
+    margin-top: 20vw;
+    }
+    
+    .contents{
+    width: 82vw;
+    height: 41vw;
+    background: #6183E7;
+    border-radius: 40px;
+    margin: 0 auto;
+    
+    }
+    
+    .title{
+    width: fit-content;
+    height: fit-content;
+    font-family: 'Lemon';
+    font-size: 3vw;
+    display: inline;
+    margin-left: 5%;
+    background: linear-gradient(125.37deg, #000000 62.14%, #5896F2 73.95%, #6183E7 81.63%, #7050EE 87.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    }
+    
+    .title_2{
+    width:  fit-content;
+    height:  fit-content;
+    display: inline;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3vw;
+    color: #000000;
+    margin-left: 19vw;
+    line-height: 55px;
+    }
+    
+    .title_3{
+    width: fit-content;
+    height: fit-content;
+    display: inline;
+    background: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 38px;
+    font-family: 'Lemon';
+    font-style: normal;
+    font-size:2vw;
+    line-height: 55px;
+    text-align: center;
+    padding: 10px;
+    color: #FFFFFF;
+    margin-left: 14vw;
+    }
+    
+}
+
+@media screen and (max-width:420px) {
+    #itmodal{
+        width: 90vw;
+        height: 65vw;
+        background: #FFFFFF;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 40px;
+        margin: 0 auto;
+        margin-top: 70vw;
+        }
+        
+        .contents{
+        width: 83vw;
+        height: 48vw;
+        background: #6183E7;
+        border-radius: 40px;
+        margin: 0 auto;
+        }
+        
+        .title{
+        width: fit-content;
+        height: fit-content;
+        font-family: 'Lemon';
+        font-size:5vw;
+        display: inline;
+        margin-left: 5%;
+        background: linear-gradient(125.37deg, #000000 62.14%, #5896F2 73.95%, #6183E7 81.63%, #7050EE 87.3%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        }
+        
+        .title_2{
+        width:  fit-content;
+        height:  fit-content;
+        display: inline;
+        font-family: 'Libre Franklin';
+        font-style: normal;
+        font-weight: 300;
+        font-size:3vw;
+        color: #000000;
+        margin-left:15vw;
+        line-height: 55px;
+        }
+        
+        .title_3{
+        width: fit-content;
+        height: fit-content;
+        display: inline;
+        background: #000000;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 38px;
+        font-family: 'Lemon';
+        font-style: normal;
+        font-size: 1vw;
+        line-height: 55px;
+        text-align: center;
+        padding: 8px;
+        color: #FFFFFF;
+        margin-left: 10vw;
+        }
+}
+
+@media screen and (max-width:380px) {
+    #itmodal{
+        width: 95vw;
+        height: 65vw;
+        background: #FFFFFF;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 40px;
+        margin: 0 auto;
+        margin-top: 50vw;
+        }
+        
+        .contents{
+        width: 89vw;
+        height: 48vw;
+        background: #6183E7;
+        border-radius: 40px;
+        margin: 0 auto;
+        }
+        
+        .title{
+        width: fit-content;
+        height: fit-content;
+        font-family: 'Lemon';
+        font-size:5vw;
+        display: inline;
+        margin-left: 5%;
+        background: linear-gradient(125.37deg, #000000 62.14%, #5896F2 73.95%, #6183E7 81.63%, #7050EE 87.3%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        }
+        
+        .title_2{
+        width:  fit-content;
+        height:  fit-content;
+        display: inline;
+        font-family: 'Libre Franklin';
+        font-style: normal;
+        font-weight: 300;
+        font-size:3vw;
+        color: #000000;
+        margin-left:15vw;
+        line-height: 55px;
+        }
+        
+        .title_3{
+        width: fit-content;
+        height: fit-content;
+        display: inline;
+        background: #000000;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 38px;
+        font-family: 'Lemon';
+        font-style: normal;
+        font-size: 1vw;
+        line-height: 55px;
+        text-align: center;
+        padding: 8px;
+        color: #FFFFFF;
+        margin-left: 10vw;
+        }
+}
+
+@media screen and (max-width:300px) {
+    #itmodal{
+        width: 97vw;
+        height: 65vw;
+        background: #FFFFFF;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 40px;
+        margin: 0 auto;
+        margin-top: 70vw;
+        }
+        
+        .contents{
+        width: 90vw;
+        height: 48vw;
+        background: #6183E7;
+        border-radius: 40px;
+        margin: 0 auto;
+        margin-top: -4.5vw;
+        }
+        
+        .title{
+        width: fit-content;
+        height: fit-content;
+        font-family: 'Lemon';
+        font-size:3vw;
+        display: inline;
+        margin-left: 5%;
+        background: linear-gradient(125.37deg, #000000 62.14%, #5896F2 73.95%, #6183E7 81.63%, #7050EE 87.3%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        }
+        
+        .title_2{
+        width:  fit-content;
+        height:  fit-content;
+        display: inline;
+        font-family: 'Libre Franklin';
+        font-style: normal;
+        font-weight: 300;
+        font-size:1vw;
+        color: #000000;
+        margin-left:13vw;
+        line-height: 55px;
+        }
+        
+        .title_3{
+        width: fit-content;
+        height: fit-content;
+        display: inline;
+        background: #000000;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 38px;
+        font-family: 'Lemon';
+        font-style: normal;
+        font-size: 0.5vw;
+        line-height: 55px;
+        text-align: center;
+        padding: 3px;
+        color: #FFFFFF;
+        margin-left: 10vw;
+        }
+}
