@@ -91,7 +91,8 @@ footer p {
   margin-bottom: 10px;
   font-size: 1.1em;
   position: relative;
-  bottom: -90px;
+  bottom: -200px;
+  z-index: 30;
 }
 
 footer .wave {

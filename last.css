@@ -52,7 +52,7 @@ padding-right: 20px;
 font-size: 2.5vw;
 }
 
-.name-title h2 {
+.name-title p {
   color: #121212;
 position: relative;
 top: -50px;
@@ -97,7 +97,6 @@ grid-column-end: 2;
 grid-row-start: 2;
 grid-row-end: 3;
 position: relative;
-left: 100px;
 top: -3em;
 max-width: 100%;
 margin-top: 0.1rem;
@@ -151,7 +150,7 @@ a:-webkit-any-link {
 
 .button-text {
 display: flex;
-height: 2rem;
+
 padding: 0;
 -webkit-box-orient: vertical;
 -webkit-box-direction: normal;
@@ -267,13 +266,195 @@ a.roll {
 
 .banner {
 border-radius: 80px;
-width:600px; 
-height:120px;  background-color:#000;
-position: relative;
-top: -27.5vw;
-left: 47vw;
+
+background-color:#000;
+
 }
 
 .rolling{position:relative; width:100%; height:32vw; }
 
 .rolling span{width:40vw; height:8vw; line-height:50px; overflow: hidden;}
+
+
+@media screen and (max-width:1799px) {
+  /*데스크탑*/
+  .name-title p {
+    font-size: 45px;
+  }
+
+  .text-span-7 {
+    font-size: 15px;
+  }
+
+  #node {
+    left: 100px;
+  }
+  
+  .button-text {
+    height: 2rem;
+  }
+
+  .banner {
+    width:600px; 
+    height:120px;
+    position: relative;
+    top: -27.5vw;
+    left: 47vw;
+  }
+
+  a.roll {
+    width: 900px;
+    height: 120px;
+    font-size: 78px;
+  }
+
+}
+
+@media screen and (max-width:1280px) {
+  /*태블릿 가로*/
+  .name-title p {
+    font-size: 35px;
+  }
+
+  .text-span-7 {
+    font-size: 13px;
+  }
+
+  #node {
+    left: 70px;
+  }
+
+  .banner {
+    width:380px; 
+    height:100px;
+    position: relative;
+    top: -33vw;
+    left: 50vw;
+  }
+
+  a.roll {
+    width: 900px;
+    height: 120px;
+    font-size: 50px;
+  }
+
+  .rolling span {
+    position: relative;
+    left: -40%;
+  }
+
+}
+
+@media screen and (max-width:899px) {
+  /*태블릿 세로*/
+  .name-title p {
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+  }
+  .name-title span {
+    margin-top: -50px;
+  }
+
+  .text-span-7 {
+    font-size: 10px;
+  }
+
+  #node {
+    left: 50px;
+  }
+
+  .banner {
+    width:200px; 
+    height:90px;
+    position: relative;
+    top: -45vw;
+    left: 55vw;
+  }
+
+  a.roll {
+    width: 900px;
+    height: 120px;
+    font-size: 30px;
+  }
+  .rolling span {
+    position: relative;
+    left: -140%;
+
+  }
+
+
+
+}
+
+@media screen and (max-width:599px) {
+  /*모바일 가로*/
+  .name-title p {
+    font-size: 25px;
+  }
+
+  .text-span-7 {
+    font-size: 8px;
+  }
+
+  #node {
+    left: 10px;
+  }
+
+
+  .banner {
+    width:170px; 
+    height:70px;
+    position: relative;
+    top: -65vw;
+    left: 47vw;
+  }
+
+  a.roll {
+    width: 900px;
+    height: 120px;
+    font-size: 20px;
+  }
+
+  .rolling span {
+    position: relative;
+    left: -180%;
+  }
+
+}
+
+@media screen and (max-width:420px) {
+  /*모바일 세로*/
+  .name-title p {
+    font-size: 20px;
+  }
+
+  .text-span-7 {
+    font-size: 5px;
+  }
+
+  #node {
+    left: -20px;
+  }
+
+
+  .banner {
+    width:130px; 
+    height:60px;
+    position: relative;
+    top: -90vw;
+    left: 50vw;
+  }
+
+  a.roll {
+    width: 900px;
+    height: 120px;
+    font-size: 20px;
+  }
+  .rolling span {
+    position: relative;
+    left: -270%;
+
+  }
+
+}
