@@ -1,4 +1,6 @@
 @import './mainP.css';
+@import './introduceP.css';
+
 html{overflow: hidden;} 
 
 body{
@@ -7,112 +9,6 @@ body{
 
 html, body{width: 100%; height: 100%;}
 
-#page_2{
-width: 100%;
-height: 110vh;
-background-color: #0A1843;
-text-align: center;
-margin-top:10px;
-}
-
-.p_title{
-width: 1040px;
-height: 104px;
-padding-top: 8%;
-padding-left: 5%;
-color: #fff;
-font-family: 'Lemon';
-font-style: normal;
-font-weight: 400;
-font-size: 80px;
-line-height: 104px;
-text-shadow: 0 0.1em 20px black, 0.05em -0.03em 0 black, 0.05em 0.005em 0 black, 0em 0.08em 0 black, 0.05em 0.08em 0 black, 0px -0.03em 0 black, -0.03em -0.03em 0 black, -0.03em 0.08em 0 black, -0.03em 0 0 black;
-}
-
-h1 span{
-transform: scale(0.9);
-display: inline-block;
-}
-
-h1 span:first-child {
-animation: bop 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite alternate;
-}
-
-h1 span:last-child {
-animation: bopB 1s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite alternate;
-}
-
-@keyframes bop {
-0% {
-transform: scale(0.9);
-}
-50%, 100% {
-transform: scale(1);
-}
-}
-
-@keyframes bopB {
-0% {
-transform: scale(0.9);
-}
-80%, 100% {
-transform: scale(1) rotateZ(-3deg);
-}
-}
-
-.p_text{
-padding: 10%;
-padding-top: 0;
-padding-bottom: 3%;
-font-family: 'Libre Franklin';
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 50px;
-letter-spacing: 0.1em;
-color: #FFFFFF;
-}
-
-.text_ani1{
-width: 306px;
-height: 75px;
-border: 3px solid white;
-padding:1%;
-border-radius: 37px;
-cursor: pointer;
-}
-
-.text_ani1:hover{
-background-color: white;
-color: black;
-cursor: pointer;
-}
-
-.text_ani2:hover{
-        background: linear-gradient(to top,#6183E7 50%, transparent 50%);
-}
-
-@keyframes AniLine{
-        0% {
-        transform: translate3d(0%, 0%, 0);
-        }
-        100% {
-        transform: translate3d(-75%, 0%, 0);
-        }
-}
-
-#icon2{
-width: 50px;
-height: 40px;
-display: flex;
-color: white;
-font-size: 30px;
-cursor: pointer;
-margin-left: 49%;
--webkit-animation: sdb 2s infinite;
-animation: sdb 2s infinite;
-box-sizing: border-box;
-}
 
 #page_3{
 background-color: #000;
