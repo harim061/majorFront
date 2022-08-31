@@ -1,0 +1,29 @@
+@media screen  and(max-width:1770px){
+    .mention{
+        display: none;
+    }
+}
+@media screen and (max-width:1500px){
+    
+.mention{
+    background-color: rgba(128, 128, 128, 0.9);
+    display: block;
+    width:100%;
+    height: fit-content;
+    position: absolute;
+    padding: 2%;
+    padding-left: 1%;
+    top: 50px;
+    color: rgb(45, 66, 153);
+    font-size: 20px;
+    word-break: keep-all;
+    text-align: center;
+    z-index: 300000;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.closemention{
+    color: black;
+}
+}

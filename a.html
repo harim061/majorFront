@@ -85,6 +85,12 @@
             <i class="fa-solid fa-chevron-down" id="icon2" onclick="goSl();"></i>
     </div>
     <div class="content" id="page_3">
+        <div class="mention">
+            현 페이지는 PC에서 확인 부탁드립니다.
+            <br>
+            <br>
+            <span class="closemention" onclick="closemention();">닫기</span>
+        </div>
             <svg class="sky"></svg>
         <div class="page3_box1" onmouseenter="flow()" ; onmouseout="flowout()">
             <img class="flowimg" src="./images/flow.png">
@@ -121,6 +127,8 @@
         </div>
     </div>
 
+
+
     <!--로드맵 페이지-->
     <div class="content" style="background: #000" id="page_4">
         <div class="roadmap">
@@ -131,7 +139,8 @@
                 <p style="color: #0A1843; margin-bottom: 1%; text-decoration: underline;margin-top: 20px;">according to the field of employment</p>
                 <i style="color: #fff; text-shadow: 4px 4px #6183E7;text-shadow: 0 0.1em 20px black, 0.05em -0.03em 0 black, 0.05em 0.005em 0 black, 0em 0.08em 0 black, 0.05em 0.08em 0 black, 0px -0.03em 0 black, -0.03em -0.03em 0 black, -0.03em 0.08em 0 black, -0.03em 0 0 black; ">Click what you want!</i>
             </div>
-            <table>
+            <div class="rtable">
+                <table>
                 <thead style="color: white; text-align: center;">
                 <th>
                     <div style="display: flex; justify-content: center;">
@@ -146,6 +155,31 @@
                     </div>
                     고급소프트웨어 개발자
                 </th>
+                </thead>
+                <tbody>
+                    <td>
+                        <div class="mc" >
+                            <div id="sw" style="visibility: hidden;">
+                                프로그래밍기초<br>
+                                JAVA프로그래밍<br>
+                                객체지향프로그래밍<br>
+                                리눅스프로그래밍<hr>
+                                소프트웨어분석설계<br>
+                                멀티미디어프로그래밍<br>
+                                소프트웨어공학<br>
+                                알고리즘<br>
+                                운영체제<hr>
+                                컴퓨터그래픽스<br>
+                                인공지능<br>
+                                졸업프로젝트1<br>
+                                졸업프로젝트2<br>
+                            </div> 
+                        </div>
+                    </td>
+                </tbody>
+                </table>
+                <table>
+                <thead style="color: white; text-align: center;">
                 <th>
                     <div id="park" onclick="tgDb();">
                         <div class="back">
@@ -161,6 +195,41 @@
                     </div>
                     웹/앱 개발자
                 </th>
+                </thead>
+                <tbody>
+                    <td>
+                        <div class="mc">
+                            <div id="db" style="display: none;">
+                                프로그래밍기초<br>
+                                JAVA프로그래밍<br>
+                                프로그래머수학<br>
+                                자료구조론<hr><br>
+                                알고리즘<br>
+                                데이터베이스프로그래밍<br><br><hr>
+                                빅데이터<br>
+                                졸업프로젝트1<br>
+                                졸업프로젝트2
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="mc">
+                            <div id="wa" style="display: none;">
+                                인터넷기초<br>
+                                JAVA프로그래밍<br>
+                                인터넷프로그래밍<br>
+                                리눅스프로그래밍<hr><br><br>
+                                모바일앱프로그래밍<br><br><br><hr>
+                                웹프로그래밍응용<br>
+                                졸업프로젝트1<br>
+                                졸업프로젝트2
+                            </div>
+                        </div>
+                    </td>
+                </tbody>
+                </table>
+                <table>
+                <thead style="color: white; text-align: center;">
                 <th>
                     <div id="olee" onclick="tgNs();">
                         <div class="back"><p>이주영 교수님</p>
@@ -170,7 +239,7 @@
                 </th>
                 </thead> 
                 <tbody>
-                <td>
+                <!-- <td>
                     <div class="mc" >
                         <div id="sw" style="visibility: hidden;">
                             프로그래밍기초<br>
@@ -217,7 +286,7 @@
                             졸업프로젝트2
                         </div>
                     </div>
-                </td>
+                </td> -->
                 <td>
                     <div class="mc">
                         <div  id="ns" style="display: none;">
@@ -233,7 +302,8 @@
                     </div>
                 </td>
                 </tbody>
-            </table>
+                </table>
+            </div>
         </div>
     </div>
 
