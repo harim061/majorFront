@@ -302,6 +302,12 @@ background-color:#000;
     left: 47vw;
   }
 
+  a.roll {
+    width: 900px;
+    height: 120px;
+    font-size: 78px;
+  }
+
 }
 
 @media screen and (max-width:1280px) {
@@ -318,8 +324,24 @@ background-color:#000;
     left: 70px;
   }
 
+  .banner {
+    width:380px; 
+    height:100px;
+    position: relative;
+    top: -33vw;
+    left: 50vw;
+  }
 
+  a.roll {
+    width: 900px;
+    height: 120px;
+    font-size: 50px;
+  }
 
+  .rolling span {
+    position: relative;
+    left: -40%;
+  }
 
 }
 
@@ -342,6 +364,24 @@ background-color:#000;
     left: 50px;
   }
 
+  .banner {
+    width:200px; 
+    height:90px;
+    position: relative;
+    top: -45vw;
+    left: 55vw;
+  }
+
+  a.roll {
+    width: 900px;
+    height: 120px;
+    font-size: 30px;
+  }
+  .rolling span {
+    position: relative;
+    left: -140%;
+
+  }
 
 
 
@@ -362,6 +402,24 @@ background-color:#000;
   }
 
 
+  .banner {
+    width:170px; 
+    height:70px;
+    position: relative;
+    top: -65vw;
+    left: 47vw;
+  }
+
+  a.roll {
+    width: 900px;
+    height: 120px;
+    font-size: 20px;
+  }
+
+  .rolling span {
+    position: relative;
+    left: -180%;
+  }
 
 }
 
@@ -380,5 +438,23 @@ background-color:#000;
   }
 
 
+  .banner {
+    width:130px; 
+    height:60px;
+    position: relative;
+    top: -90vw;
+    left: 50vw;
+  }
+
+  a.roll {
+    width: 900px;
+    height: 120px;
+    font-size: 20px;
+  }
+  .rolling span {
+    position: relative;
+    left: -270%;
+
+  }
 
 }
