@@ -154,3 +154,84 @@
 .overlay.visible nav ul li:nth-child(8) {
   animation-delay: 0.44s;
 }
+
+@media screen and (max-width:1799px) {
+  /*데스크탑*/
+  .menu ul li a {
+    font-size : 1.2em;
+  }
+
+  .hamburger-btn {
+    width: 45px;
+    height: 34px;
+  }
+
+  .hamburger-btn span {
+    height: 0.5em;
+  }
+  
+}
+
+@media screen and (max-width:1280px) {
+  /*태블릿 가로*/
+  .menu ul li a {
+    font-size : 1em;
+  }
+
+  .hamburger-btn {
+    width: 40px;
+    height: 30px;
+  }
+
+  .hamburger-btn span {
+    height: 0.45em;
+  }
+}
+
+@media screen and (max-width:899px) {
+  /*태블릿 세로*/
+  .menu ul li a {
+    font-size : 0.9em;
+  }
+
+  .hamburger-btn {
+    width: 35px;
+    height: 25px;
+  }
+
+  .hamburger-btn span {
+    height: 0.4em;
+  }
+}
+
+@media screen and (max-width:599px) {
+  /*모바일 가로*/
+  .menu ul li a {
+    font-size : 0.8em;
+  }
+
+  .hamburger-btn {
+    width: 30px;
+    height: 20px;
+  }
+
+  .hamburger-btn span {
+    height: 0.35em;
+  }
+}
+
+@media screen and (max-width:420px) {
+  /*모바일 세로*/
+  .menu ul li a {
+    font-size : 0.7em;
+  }
+
+  .hamburger-btn {
+    width: 26px;
+    height: 16px;
+  }
+
+    .hamburger-btn span {
+    height: 0.3em;
+  }
+}

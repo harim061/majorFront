@@ -30,7 +30,6 @@ a .screen .top {
   bottom: 150%;
   z-index: 2;
   color: #fff;
-  font-size: 20px;
   font-weight: 700;
   text-align: center;
   transition: all .35s;
@@ -50,17 +49,7 @@ a:hover .top {
   margin: 0 auto;
 }
 
-a:hover .top1 {
-  left: 38%;
-}
 
-a:hover .top2 {
-  left: 30%;
-}
-
-a:hover .top3 {
-  left: 20%;
-}
 
 a .screen::after {
   content: '';
@@ -114,6 +103,8 @@ body {
 }
 */
 
+
+
 .thumbTiles.swiper-container {
   padding: 0 4%;
 }
@@ -155,7 +146,6 @@ a .desc p {
   margin: 15px auto;
   color: var(--colorOne);
   line-height: 2em;
-  font-weight: 700;
 }
 
 a .desc p.long {
@@ -260,5 +250,184 @@ a:hover .desc {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media screen and (max-width:1799px) {
+  /*데스크탑*/
+
+  .page_7_title .thumbTitle {
+    font-size: 60px;
+  }
+
+  .page_7_title .blinking {
+    font-size: 73px;
+  }
+
+  h3.elements {
+    font-size: 18px;
+  }
+
+  .screen .top {
+    font-size: 18px;
+  }
+
+  a .desc p {
+    font-size: 16px;
+  }
+  
+  a:hover .top1 {
+    left: 38%;
+  }
+  
+  a:hover .top2 {
+    left: 30%;
+  }
+  
+  a:hover .top3 {
+    left: 20%;
+  }
+}
+
+@media screen and (max-width:1280px) {
+  /*태블릿 가로*/
+
+  .page_7_title p.thumbTitle {
+    font-size: 50px;
+  }
+
+  .page_7_title .blinking {
+    font-size: 68px;
+  }
+
+  h3.elements {
+    font-size: 16px;
+  }
+
+  .screen .top {
+    font-size: 16px;
+  }
+
+  a .desc p {
+    font-size: 14px;
+  }
+
+  a:hover .top1 {
+    left: 33%;
+  }
+  
+  a:hover .top2 {
+    left: 25%;
+  }
+  
+  a:hover .top3 {
+    left: 15%;
+  }
+}
+
+@media screen and (max-width:899px) {
+  /*태블릿 세로*/
+
+  .page_7_title p.thumbTitle {
+    font-size: 40px;
+  }
+
+  .page_7_title .blinking {
+    font-size: 63px;
+  }
+
+  h3.elements {
+    font-size: 14px;
+  }
+  .screen .top {
+    font-size: 14px;
+  }
+
+  a .desc p {
+    font-size: 13px;
+  }
+
+  a:hover .top1 {
+    left: 30%;
+  }
+  
+  a:hover .top2 {
+    left: 20%;
+  }
+  
+  a:hover .top3 {
+    left: 8%;
+  }
+}
+
+@media screen and (max-width:599px) {
+  /*모바일 가로*/
+
+  .page_7_title p.thumbTitle {
+    font-size: 30px;
+  }
+
+  .page_7_title .blinking {
+    font-size: 58px;
+  }
+
+  h3.elements {
+    font-size: 12px;
+  }
+
+  .screen .top {
+    font-size: 12px;
+  }
+
+  a .desc p {
+    font-size: 12.5px;
+  }
+
+  a:hover .top1 {
+    left: 40%;
+  }
+  
+  a:hover .top2 {
+    left: 35%;
+  }
+  
+  a:hover .top3 {
+    left: 30%;
+  }
+}
+
+@media screen and (max-width:420px) {
+  /*모바일 세로*/
+
+  .page_7_title p.thumbTitle {
+    font-size: 20px;
+  }
+
+  .page_7_title .blinking {
+    font-size: 53px;
+  }
+
+  h3.elements {
+    font-size: 10px;
+  }
+
+  .screen .top {
+    font-size: 10px;
+  }
+
+  a .desc p {
+    font-size: 12px;
+  }
+
+  a:hover .top1 {
+    left: 40%;
+  }
+  
+  a:hover .top2 {
+    left: 35%;
+  }
+  
+  a:hover .top3 {
+    left: 30%;
   }
 }
