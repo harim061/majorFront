@@ -100,6 +100,7 @@ border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
     height: 50%;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px, auto));
+    grid-template-rows: repeat(auto-fit,minmax(350px, auto));
 }
 
 .roadmap .rtable thead th {
@@ -250,6 +251,7 @@ border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
     /* 모바일 세로 */
     #page_4{
         width: 100%;
+        height: 150%;
     }
     .roadmap .rtable{
         width: 100%;
