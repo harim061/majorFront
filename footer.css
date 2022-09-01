@@ -12,7 +12,7 @@ body #wrapper {
 
 footer {
   clear:both;
-  position: relative;
+
   transform: translateY(-20%);
   bottom: 0;
   height: 250px;
@@ -26,7 +26,6 @@ footer {
   align-items: center;
   flex-direction: column;
   margin: 0 auto;
-  top: 10px;
 }
 
 
@@ -90,8 +89,7 @@ footer p {
   margin-top: 15px;
   margin-bottom: 10px;
   font-size: 1.1em;
-  position: relative;
-  bottom: -200px;
+
   z-index: 30;
 }
 
@@ -153,5 +151,76 @@ footer .wave#wave4 {
   100%
   {
     background-position-x: 1000px;
+  }
+}
+
+@media screen and (max-width:1799px) {
+  /*데스크탑*/
+
+  footer {
+    position: relative;
+    top: 30px;
+  }
+
+  footer p {
+    position: relative;
+    bottom: -100px;
+  }
+}
+
+@media screen and (max-width:1280px) {
+  /*태블릿 가로*/
+
+  footer {
+    position: relative;
+    top: 80px;
+  }
+
+  footer p {
+    position: relative;
+    bottom: -100px;
+  }
+}
+
+@media screen and (max-width:899px) {
+  /*태블릿 세로*/
+
+  footer {
+    position: relative;
+    top: 200px;
+  }
+
+  footer p {
+    position: relative;
+    bottom: -50px;
+  }
+}
+
+@media screen and (max-width:599px) {
+  /*모바일 가로*/
+
+  footer {
+    position: relative;
+    bottom: 30px;
+  }
+
+  footer p {
+    position: relative;
+    bottom: -50px;
+  }
+}
+
+@media screen and (max-width:420px) {
+  /*모바일 세로*/
+
+
+  footer {
+    position: relative;
+    bottom: 30px;
+  }
+
+  footer p {
+    position: relative;
+    bottom: -130px;
   }
 }
