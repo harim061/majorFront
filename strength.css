@@ -327,7 +327,9 @@ a:hover .desc {
 
 @media screen and (max-width:899px) {
   /*태블릿 세로*/
-
+  #page_7{
+    margin-top: -100px;
+  }
   .page_7_title p.thumbTitle {
     font-size: 40px;
   }
@@ -362,7 +364,9 @@ a:hover .desc {
 
 @media screen and (max-width:599px) {
   /*모바일 가로*/
-
+  #page_7{
+    margin-top: -100px;
+  }
   .page_7_title p.thumbTitle {
     font-size: 30px;
   }
@@ -398,7 +402,9 @@ a:hover .desc {
 
 @media screen and (max-width:420px) {
   /*모바일 세로*/
-
+  #page_7{
+    margin-top: -100px;
+  }
   .page_7_title p.thumbTitle {
     font-size: 20px;
   }

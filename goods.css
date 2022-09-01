@@ -363,7 +363,13 @@ section h1.page_title {
 
 @media screen and (max-width:420px) {
   /*모바일 세로*/
-
+  #page_8{
+    margin-top: -100px;
+  }
+  
+  #page_7{
+    height: 1000px;
+  }
   .boxs img.goods1 {
     width: 18%;
     height: 20%;
